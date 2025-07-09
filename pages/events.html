@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>活動資訊｜大灣區醫療發展與研究協會</title>
+    <title data-i18n="events.pageTitle">活動資訊｜大灣區醫療發展與研究協會</title>
     <!-- 字體 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,7 @@
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="../index.html">
                 <img src="../assets/images/logo/logo.png" alt="GBHRA Logo" style="height:40px;width:auto;margin-right:10px;">
-                <span>大灣區醫療發展與研究協會</span>
+                <span data-i18n="nav.brand">大灣區醫療發展與研究協會</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -31,28 +31,28 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html">首頁</a>
+                        <a class="nav-link" href="../index.html" data-i18n="nav.home">首頁</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">關於我們</a>
+                        <a class="nav-link" href="about.html" data-i18n="nav.about">關於我們</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="programs.html">計劃項目</a>
+                        <a class="nav-link" href="programs.html" data-i18n="nav.programs">計劃項目</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="events.html">活動資訊</a>
+                        <a class="nav-link active" href="events.html" data-i18n="nav.events">活動資訊</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">聯絡我們</a>
+                        <a class="nav-link" href="contact.html" data-i18n="nav.contact">聯絡我們</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            <i class="fas fa-globe"></i> 語言
+                            <i class="fas fa-globe"></i> <span data-i18n="nav.language">語言</span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">繁體中文</a></li>
-                            <li><a class="dropdown-item" href="#">简体中文</a></li>
-                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#" data-lang="zh-TW">繁體中文</a></li>
+                            <li><a class="dropdown-item" href="#" data-lang="zh-CN">简体中文</a></li>
+                            <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -60,8 +60,8 @@
         </div>
     </nav>
     <main class="container py-16" style="margin-top:100px;">
-        <h1 class="section-title text-center mb-2">活動資訊</h1>
-        <p class="section-subtitle text-center mb-8">協會最新活動與交流成果</p>
+        <h1 class="section-title text-center mb-2" data-i18n="events.title">活動資訊</h1>
+        <p class="section-subtitle text-center mb-8" data-i18n="events.subtitle">協會最新活動與交流成果</p>
         <div class="row">
             <!-- 活動卡片兩欄排列 -->
             <div class="col-12">
@@ -72,11 +72,11 @@
                             <div class="card-body">
                                 <div class="d-flex align-items-center mb-3">
                                     <i class="fas fa-hospital-user text-primary me-2"></i>
-                                    <small class="text-muted">2025年5月21日</small>
+                                    <small class="text-muted" data-i18n="events.cards.0.date">2025年5月21日</small>
                                 </div>
-                                <h5 class="card-title">廣東省第二中醫院交流會</h5>
-                                <p class="card-text">協會副主席帶領醫學生團隊赴廣東省第二中醫院，與內地專家交流中醫藥發展，並草擬合作計劃。</p>
-                                <a href="event-gd2hospital.html" class="btn btn-primary btn-sm">活動詳情</a>
+                                <h5 class="card-title" data-i18n="events.cards.0.title">廣東省第二中醫院交流會</h5>
+                                <p class="card-text" data-i18n="events.cards.0.desc">協會副主席帶領醫學生團隊赴廣東省第二中醫院，與內地專家交流中醫藥發展，並草擬合作計劃。</p>
+                                <a href="event-gd2hospital.html" class="btn btn-primary btn-sm" data-i18n="events.cards.0.detailsBtn">活動詳情</a>
                             </div>
                         </div>
                     </div>
@@ -86,11 +86,11 @@
                             <div class="card-body">
                                 <div class="d-flex align-items-center mb-3">
                                     <i class="fas fa-users text-primary me-2"></i>
-                                    <small class="text-muted">2025年6月21日</small>
+                                    <small class="text-muted" data-i18n="events.cards.1.date">2025年6月21日</small>
                                 </div>
-                                <h5 class="card-title">青年醫護社工精神健康交流體驗日</h5>
-                                <p class="card-text">聚焦青年醫護與社工精神健康，促進跨界交流與經驗分享，推動醫療與社會服務協作。</p>
-                                <a href="event-mentalhealth.html" class="btn btn-primary btn-sm">活動詳情</a>
+                                <h5 class="card-title" data-i18n="events.cards.1.title">青年醫護社工精神健康交流體驗日</h5>
+                                <p class="card-text" data-i18n="events.cards.1.desc">聚焦青年醫護與社工精神健康，促進跨界交流與經驗分享，推動醫療與社會服務協作。</p>
+                                <a href="event-mentalhealth.html" class="btn btn-primary btn-sm" data-i18n="events.cards.1.detailsBtn">活動詳情</a>
                             </div>
                         </div>
                     </div>
@@ -103,8 +103,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>關於協會</h3>
-                    <p>大灣區醫療發展與研究協會致力於傳承醫療文化、加深兩地交流、促進醫療科技發展，為大灣區醫療健康事業貢獻力量。</p>
+                    <h3 data-i18n="footer.about">關於協會</h3>
+                    <p data-i18n="footer.aboutDesc">大灣區醫療發展與研究協會致力於傳承醫療文化、加深兩地交流、促進醫療科技發展，為大灣區醫療健康事業貢獻力量。</p>
                     <div class="social-links mt-3">
                         <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
@@ -113,38 +113,41 @@
                     </div>
                 </div>
                 <div class="footer-section">
-                    <h3>快速連結</h3>
+                    <h3 data-i18n="footer.quickLinks">快速連結</h3>
                     <ul class="list-unstyled">
-                        <li><a href="about.html">關於我們</a></li>
-                        <li><a href="programs.html">計劃項目</a></li>
-                        <li><a href="events.html">活動資訊</a></li>
-                        <li><a href="contact.html">聯絡我們</a></li>
+                        <li><a href="about.html" data-i18n="nav.about">關於我們</a></li>
+                        <li><a href="programs.html" data-i18n="nav.programs">計劃項目</a></li>
+                        <li><a href="events.html" data-i18n="nav.events">活動資訊</a></li>
+                        <li><a href="contact.html" data-i18n="nav.contact">聯絡我們</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h3>聯絡資訊</h3>
-                    <p><i class="fas fa-map-marker-alt me-2"></i>香港九龍灣宏開道16號德福大廈 611 號 03室 </p>
-                    <p><i class="fas fa-phone me-2"></i>+852 6025 6289</p>
-                    <p><i class="fas fa-envelope me-2"></i>info@gbhra.org</p>
-                    <p><i class="fas fa-clock me-2"></i>週一至週五 9:00-18:00</p>
+                    <h3 data-i18n="footer.contactInfo">聯絡資訊</h3>
+                    <p><i class="fas fa-map-marker-alt me-2"></i><span data-i18n="footer.address">香港九龍灣宏開道16號德福大廈 611 號 03室</span></p>
+                    <p><i class="fas fa-phone me-2"></i><span data-i18n="footer.phone">+852 6025 6289</span></p>
+                    <p><i class="fas fa-envelope me-2"></i><span data-i18n="footer.email">info@gbhra.org</span></p>
+                    <p><i class="fas fa-clock me-2"></i><span data-i18n="footer.hours">週一至週五 9:00-18:00</span></p>
                 </div>
                 <div class="footer-section">
-                    <h3>訂閱通訊</h3>
-                    <p>訂閱我們的電子通訊，獲取最新活動資訊和研究報告。</p>
+                    <h3 data-i18n="footer.subscribe">訂閱通訊</h3>
+                    <p data-i18n="footer.subscribeDesc">訂閱我們的電子通訊，獲取最新活動資訊和研究報告。</p>
                     <form class="mt-3">
                         <div class="input-group">
-                            <input type="email" class="form-control" placeholder="您的電郵地址">
-                            <button class="btn btn-primary" type="submit">訂閱</button>
+                            <input type="email" class="form-control" data-i18n-placeholder="footer.emailPlaceholder" placeholder="您的電郵地址">
+                            <button class="btn btn-primary" type="submit" data-i18n="footer.subscribeBtn">訂閱</button>
                         </div>
                     </form>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025-2026 大灣區醫療發展與研究協會. 版權所有.</p>
+                <p data-i18n="footer.copyright">© 2025 大灣區醫療發展與研究協會. 版權所有.</p>
             </div>
         </div>
     </footer>
     <script src="../assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- 語言管理器 -->
+    <script src="../assets/js/languageManager.js" type="module"></script>
 </body>
 </html> 

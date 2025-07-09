@@ -257,16 +257,25 @@ const en = {
         }
     },
     
-    // Events
+    // Events page
     events: {
+        pageTitle: "Events | Greater Bay Area Healthcare Research Association",
         title: "Events",
-        subtitle: "Latest activities and exchange outcomes of the association",
-        gd2hospital: "Guangdong Second Traditional Chinese Medicine Hospital Exchange",
-        gd2hospitalDesc: "The association's vice-chairman led a team of medical students to Guangdong Second Traditional Chinese Medicine Hospital to exchange with mainland experts on TCM development and draft cooperation plans.",
-        mentalHealth: "Youth Healthcare and Social Work Mental Health Exchange Experience Day",
-        mentalHealthDesc: "Focusing on mental health of young healthcare workers and social workers, promoting cross-sector exchange and experience sharing, and advancing collaboration between healthcare and social services.",
-        eventDetails: "Event Details",
-        date: "Date"
+        subtitle: "Latest activities and exchange achievements of the association",
+        cards: {
+            0: {
+                date: "May 21, 2025",
+                title: "Guangdong Second Traditional Chinese Medicine Hospital Exchange",
+                desc: "The association's vice-chairman led a team of medical students to Guangdong Second Traditional Chinese Medicine Hospital to exchange views on TCM development with mainland experts and draft cooperation plans.",
+                detailsBtn: "Event Details"
+            },
+            1: {
+                date: "June 21, 2025",
+                title: "Youth Healthcare and Social Work Mental Health Exchange Experience Day",
+                desc: "Focusing on mental health of young healthcare workers and social workers, promoting cross-border exchange and experience sharing, and advancing collaboration between healthcare and social services.",
+                detailsBtn: "Event Details"
+            }
+        }
     },
     
     // Contact
