@@ -119,8 +119,8 @@ class LanguageManager {
     }
 
     updateNavigation() {
-        // 更新導航連結文字
-        const navLinks = document.querySelectorAll('.nav-link');
+        // 更新導航連結文字（只處理導航欄中的連結，不包括返回按鈕等）
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
         navLinks.forEach(link => {
             const href = link.getAttribute('href');
             if (href) {
