@@ -119,16 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // ===== 語言切換功能 =====
-    const languageDropdown = document.querySelector('.dropdown-menu');
-    if (languageDropdown) {
-        languageDropdown.addEventListener('click', function(e) {
-            if (e.target.classList.contains('dropdown-item')) {
-                e.preventDefault();
-                const language = e.target.textContent.trim();
-                changeLanguage(language);
-            }
-        });
-    }
+    // 語言切換功能已移至 languageManager.js 處理
     
     // ===== 搜尋功能 =====
     const searchInput = document.querySelector('.search-input');
@@ -216,11 +207,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 5000);
     }
     
-    // 語言切換
-    function changeLanguage(language) {
-        // 這裡可以實現多語言切換邏輯
-        console.log(`切換到語言: ${language}`);
-    }
+    // 語言切換功能已移至 languageManager.js 處理
     
     // 搜尋功能
     function performSearch(searchTerm) {

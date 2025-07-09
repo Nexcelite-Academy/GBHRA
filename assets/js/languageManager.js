@@ -250,18 +250,27 @@ class LanguageManager {
     }
 
     setupLanguageSwitcher() {
-        const languageDropdown = document.querySelector('.dropdown-menu');
-        if (languageDropdown) {
-            languageDropdown.addEventListener('click', (e) => {
-                if (e.target.classList.contains('dropdown-item')) {
-                    e.preventDefault();
-                    const language = e.target.getAttribute('data-lang');
-                    if (language) {
-                        this.changeLanguage(language);
-                    }
+        // 使用事件委託，監聽整個文檔的點擊事件
+        document.addEventListener('click', (e) => {
+            // 處理下拉選單項目
+            if (e.target.classList.contains('dropdown-item') && e.target.hasAttribute('data-lang')) {
+                e.preventDefault();
+                e.stopPropagation();
+                const language = e.target.getAttribute('data-lang');
+                if (language) {
+                    this.changeLanguage(language);
                 }
-            });
-        }
+            }
+            // 處理手機版按鈕
+            else if (e.target.tagName === 'BUTTON' && e.target.hasAttribute('data-lang')) {
+                e.preventDefault();
+                e.stopPropagation();
+                const language = e.target.getAttribute('data-lang');
+                if (language) {
+                    this.changeLanguage(language);
+                }
+            }
+        });
     }
 
     getCurrentPage() {
