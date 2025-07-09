@@ -220,7 +220,6 @@ document.addEventListener('DOMContentLoaded', function() {
     function changeLanguage(language) {
         // 這裡可以實現多語言切換邏輯
         console.log(`切換到語言: ${language}`);
-        showAlert(`已切換到${language}`, 'info');
     }
     
     // 搜尋功能
