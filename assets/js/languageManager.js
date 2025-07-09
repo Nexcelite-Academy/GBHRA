@@ -244,18 +244,19 @@ class LanguageManager {
     }
 
     updateAboutPage() {
-        const title = document.querySelector('.section-title');
-        if (title) title.textContent = this.getText('about.title');
+        // 由於我們已經在 HTML 中添加了 data-i18n 屬性，
+        // updateAllI18nElements() 方法會自動處理所有翻譯
+        // 這裡只需要處理任何特殊的邏輯（如果有的話）
         
-        const subtitle = document.querySelector('.section-subtitle');
-        if (subtitle) subtitle.textContent = this.getText('about.subtitle');
-        
-        // 更新使命和願景
-        const missionTitle = document.querySelector('h3:contains("協會使命")');
-        if (missionTitle) missionTitle.textContent = this.getText('about.mission');
-        
-        const visionTitle = document.querySelector('h3:contains("協會願景")');
-        if (visionTitle) visionTitle.textContent = this.getText('about.vision');
+        // 更新頁面標題
+        const titleElement = document.querySelector('title[data-i18n]');
+        if (titleElement) {
+            const key = titleElement.getAttribute('data-i18n');
+            const text = this.getText(key);
+            if (text && text !== key) {
+                document.title = text;
+            }
+        }
     }
 
     updateProgramsPage() {
