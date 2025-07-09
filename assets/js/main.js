@@ -3,6 +3,32 @@
 // 等待DOM加載完成
 document.addEventListener('DOMContentLoaded', function() {
     
+    // ===== 確保漢堡按鈕正常工作 =====
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+    
+    if (navbarToggler && navbarCollapse) {
+        // 確保 Bootstrap 的 collapse 功能正常工作
+        navbarToggler.addEventListener('click', function(e) {
+            console.log('漢堡按鈕被點擊');
+            // 如果 Bootstrap 沒有正常工作，手動切換
+            if (!window.bootstrap) {
+                e.preventDefault();
+                navbarCollapse.classList.toggle('show');
+            }
+        });
+        
+        // 點擊導航連結時自動收起選單（手機版）
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                if (window.innerWidth < 992) { // 手機版寬度
+                    navbarCollapse.classList.remove('show');
+                }
+            });
+        });
+    }
+    
     // ===== 導航欄滾動效果 =====
     const navbar = document.querySelector('.navbar');
     let lastScrollTop = 0;
@@ -214,23 +240,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // ===== 響應式導航欄 =====
-    const navbarToggler = document.querySelector('.navbar-toggler');
-    const navbarCollapse = document.querySelector('.navbar-collapse');
-    
-    if (navbarToggler && navbarCollapse) {
-        navbarToggler.addEventListener('click', function() {
-            navbarCollapse.classList.toggle('show');
-        });
-        
-        // 點擊導航連結時關閉移動端菜單
-        document.querySelectorAll('.nav-link').forEach(link => {
-            link.addEventListener('click', function() {
-                if (window.innerWidth < 992) {
-                    navbarCollapse.classList.remove('show');
-                }
-            });
-        });
-    }
+    // 這裡的代碼已移至上方，確保在 DOMContentLoaded 時執行
     
     // ===== 圖片懶加載 =====
     const images = document.querySelectorAll('img[data-src]');
