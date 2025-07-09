@@ -345,6 +345,93 @@ const en = {
             contactNumber: "60256289",
             photosTitle: "Event Photos",
             backButton: "Back to Events List"
+        },
+        
+        mentalhealth: {
+            pageTitle: "Youth Healthcare and Social Work Mental Health Exchange Experience Day | Event Details | Greater Bay Area Healthcare Research Association",
+            date: "June 21, 2025",
+            title: "Youth Healthcare and Social Work Mental Health Exchange Experience Day",
+            description: "Focusing on mental health of young healthcare workers and social workers, promoting cross-border exchange and experience sharing, and advancing collaboration between healthcare and social services.",
+            highlights: "Event Highlights",
+            highlight1: "Cross-border theme sharing and group discussions",
+            highlight2: "Mental health experience activities",
+            highlight3: "Youth healthcare and social work exchange",
+            photos: "Event Photos",
+            backButton: "Back to Events List",
+            report: {
+                title: "Greater Bay Area Healthcare Research Association Event Report",
+                eventName: "Event Name:",
+                eventNameValue: "Youth Healthcare and Social Work Mental Health Exchange Experience Day",
+                eventDate: "Event Date:",
+                eventDateValue: "21/6/2025",
+                eventTime: "Event Time:",
+                eventTimeValue: "12:30 PM - 4:30 PM",
+                eventLocation: "Event Location:",
+                eventLocationValue: "Castle Peak Mental Health Experience Center",
+                reportDate: "Report Writing Date:",
+                reportDateValue: "25/6/2025",
+                section1: {
+                    title: "1. Participant Information",
+                    organizer: "Organizer:",
+                    organizerValue: "Youth Democratic Alliance",
+                    coOrganizers: "Co-organizers:",
+                    coOrganizer1: "Hong Kong Youth Doctors and Healthcare Workers Association",
+                    coOrganizer2: "Greater Bay Area Healthcare Development and Research Association",
+                    guests: "Key Guests and Speakers:",
+                    guest1: "Dr. Tang Chuxuan, Vice Chairman of Youth Democratic Alliance, Founding Chairman of Hong Kong Youth Doctors and Healthcare Workers Association",
+                    guest2: "Mr. Alvin Chiu, Vice Chairman of Greater Bay Area Healthcare Research Association",
+                    participants: "Participants:",
+                    participant1: "Hong Kong Youth Doctors and Healthcare Workers Association healthcare workers",
+                    participant2: "Current social workers",
+                    participant3: "Hong Kong University medical students",
+                    participant4: "Polytechnic University nursing students",
+                    participant5: "High school students (prospective medical students)"
+                },
+                section2: {
+                    title: "2. Event Overview",
+                    purposeTitle: "2.1 Event Purpose",
+                    purpose: "Promote exchange among healthcare workers, medical students, and prospective medical students, enhance understanding of mental illness and patients, and inspire thinking.",
+                    backgroundTitle: "2.2 Event Background",
+                    background: "Organized by Youth Democratic Alliance, co-organized by Hong Kong Youth Doctors and Healthcare Workers Association and Greater Bay Area Healthcare Development and Research Association, inviting healthcare workers and medical students to participate, aiming to enhance mental health awareness."
+                },
+                section3: {
+                    title: "3. Event Content",
+                    agendaTitle: "3.1 Event Agenda",
+                    time: "Time",
+                    schedule: "Schedule",
+                    schedule1: "Gather at Tsuen Wan Harbour Restaurant for lunch, promoting exchange between healthcare workers and students",
+                    schedule2: "Depart for Mental Health Experience Center",
+                    schedule3: "Visit Mental Health Experience Center and participate in mental health experience workshop",
+                    schedule4: "Dismiss at Tsuen Wan Station and Kowloon Tong Station",
+                    mainContentTitle: "3.2 Main Event Content",
+                    mainContent1: "● Lunch exchange: Allow different healthcare workers to share experiences and insights, inspire medical students and prospective medical students, and promote cross-disciplinary interaction.",
+                    mainContent2: "● Visit Mental Health Experience Center: Deep understanding of the historical evolution of psychiatric hospitals, medical causes of mental illness, diagnostic methods, and latest advances in drug treatment.",
+                    mainContent3: "● Participate in workshop: Face-to-face exchange with mental health recovery patients, personally experience daily life challenges of patients, and enhance empathy and professional understanding."
+                },
+                section4: {
+                    title: "4. Event Impact",
+                    impactTitle: "4.1 Event Impact",
+                    impact1: "● Through interaction with mental health recovery patients, effectively enhance participants' empathy and tolerance for mental illness patients, expected to improve social stereotypes of mental illness in the long term.",
+                    impact2: "● Significantly enhance healthcare workers', medical students', and prospective medical students' professional understanding of mental health issues, promoting collaboration and knowledge sharing among cross-disciplinary professionals.",
+                    impact3: "● Students gain deeper understanding of their interested professions through exchange with current healthcare workers, providing valuable advice for their career planning.",
+                    resultsTitle: "4.2 Specific Achievements",
+                    results1: "● Lunch exchange discussion topics included application and feasibility of mainland medical devices in Hong Kong, successfully triggering students' discussion of healthcare development in both regions after the event.",
+                    results2: "● As a co-organizer, this event was the first time the Greater Bay Area Healthcare Association led students for exchange, and the success of this event laid the foundation for future activities.",
+                    results3: "● The event successfully deepened medical students' understanding and thinking about mental illness, and removed their colored glasses about mental illness, inspiring reflection"
+                },
+                section5: {
+                    title: "5. Feedback and Suggestions",
+                    feedbackTitle: "5.1 Participant Feedback",
+                    suggestionsTitle: "5.2 Improvement Suggestions",
+                    suggestions: "Students expressed..."
+                },
+                section6: {
+                    title: "6. Conclusion",
+                    summaryTitle: "6.1 Summary",
+                    acknowledgmentTitle: "6.2 Special Acknowledgments",
+                    acknowledgment: "Thank Youth Democratic Alliance for initiating and organizing this event, and thank Dr. Tang Chuxuan and all Hong Kong Youth Doctors and Healthcare Workers Association healthcare workers for their support."
+                }
+            }
         }
     },
     
@@ -381,19 +468,31 @@ const en = {
     
     // Footer
     footer: {
-        about: "About Association",
-        aboutDesc: "The Greater Bay Area Healthcare Research Association is dedicated to inheriting medical culture, deepening cross-regional exchanges, and promoting medical technology development, contributing to healthcare in the Greater Bay Area.",
-        quickLinks: "Quick Links",
-        contactInfo: "Contact Information",
-        subscribe: "Subscribe to Newsletter",
-        subscribeDesc: "Subscribe to our electronic newsletter to receive the latest event information and research reports.",
-        emailPlaceholder: "Your Email Address",
-        subscribeBtn: "Subscribe",
-        social: "Social Media",
-        phone: "+852 6025 6289",
-        email: "info@gbhra.org",
-        hours: "Monday to Friday 9:00-18:00",
-        address: "Room 03, 611, Telford Plaza, 16 Wang Kwong Road, Kowloon Bay, Hong Kong",
+        about: {
+            title: "About Association",
+            description: "The Greater Bay Area Healthcare Research Association is dedicated to promoting medical knowledge education, health industry innovation, and cross-generational professional inheritance, driving high-quality development of healthcare in the Greater Bay Area."
+        },
+        quickLinks: {
+            title: "Quick Links",
+            about: "About Us",
+            programs: "Programs",
+            events: "Events",
+            contact: "Contact Us"
+        },
+        contact: {
+            title: "Contact Information",
+            address: "8 Financial Street, Central, Hong Kong",
+            email: "info@gbhra.org",
+            phone: "+852 1234 5678"
+        },
+        social: {
+            title: "Follow Us"
+        },
+        newsletter: {
+            title: "Subscribe to Newsletter",
+            placeholder: "Enter your email",
+            button: "Subscribe"
+        },
         copyright: "© 2025 Greater Bay Area Healthcare Research Association. All rights reserved."
     }
 };
