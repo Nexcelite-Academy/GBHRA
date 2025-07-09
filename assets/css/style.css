@@ -26,7 +26,7 @@
   --gray-900: #0f172a;
   
   /* 字體 */
-  --font-family-zh: "Noto Sans TC", "Microsoft JhengHei", "PingFang TC", sans-serif;
+  --font-family-zh: "Noto Sans TC", "Noto Sans SC", "Microsoft JhengHei", "PingFang TC", "PingFang SC", "Hiragino Sans GB", "SimHei", sans-serif;
   --font-family-en: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   
   /* 字體大小 */
@@ -84,12 +84,15 @@ html {
 body {
   font-family: var(--font-family-zh);
   font-size: var(--text-base);
+  font-weight: 400;
   line-height: 1.6;
   color: var(--gray-800);
   background-color: var(--white);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* ===== 通用工具類 ===== */

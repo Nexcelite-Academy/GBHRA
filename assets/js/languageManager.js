@@ -26,6 +26,9 @@ class LanguageManager {
             // 初始化頁面文字
             this.updatePageContent();
             
+            // 設置初始字體
+            this.updateFontFamily(this.currentLanguage);
+            
             // 設置語言切換事件監聽器
             this.setupLanguageSwitcher();
             
@@ -60,6 +63,9 @@ class LanguageManager {
             
             // 更新 HTML lang 屬性
             document.documentElement.lang = language;
+            
+            // 更新字體
+            this.updateFontFamily(language);
             
             // 顯示切換成功提示
             this.showLanguageChangeNotification(language);
@@ -290,6 +296,24 @@ class LanguageManager {
             return 'contact';
         }
         return 'home';
+    }
+
+    updateFontFamily(language) {
+        const body = document.body;
+        
+        switch (language) {
+            case 'zh-TW':
+                body.style.fontFamily = '"Noto Sans TC", "Microsoft JhengHei", "PingFang TC", sans-serif';
+                break;
+            case 'zh-CN':
+                body.style.fontFamily = '"Noto Sans SC", "Hiragino Sans GB", "SimHei", "Microsoft YaHei", sans-serif';
+                break;
+            case 'en':
+                body.style.fontFamily = '"Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif';
+                break;
+            default:
+                body.style.fontFamily = '"Noto Sans TC", "Noto Sans SC", "Microsoft JhengHei", "PingFang TC", "PingFang SC", "Hiragino Sans GB", "SimHei", sans-serif';
+        }
     }
 
     showLanguageChangeNotification(language) {
