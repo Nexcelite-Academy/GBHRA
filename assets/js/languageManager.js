@@ -164,6 +164,9 @@ class LanguageManager {
             case 'contact':
                 this.updateContactPage();
                 break;
+            default:
+                // 對於其他頁面（如 event-gd2hospital.html），不執行特定的頁面更新邏輯
+                break;
         }
     }
 
