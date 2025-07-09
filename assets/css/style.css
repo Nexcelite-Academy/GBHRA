@@ -433,6 +433,19 @@ main {
     margin-left: 0;
     margin-bottom: var(--spacing-2);
   }
+
+  .navbar-brand {
+    min-width: 0 !important;
+    flex-shrink: 1 !important;
+    max-width: 80vw;
+  }
+  .navbar-brand span {
+    font-size: 1.1rem;
+    width: 100%;
+    display: block;
+    white-space: normal !important;
+    word-break: break-word;
+  }
 }
 
 @media (max-width: 480px) {
@@ -447,4 +460,12 @@ main {
   .hero-title {
     font-size: var(--text-3xl);
   }
+} 
+
+/* 品牌名稱自動換行，防止英文溢出 */
+.navbar-brand span {
+  white-space: normal !important;
+  word-break: break-word;
+  display: block;
+  line-height: 1.2;
 } 

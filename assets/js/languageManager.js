@@ -171,20 +171,24 @@ class LanguageManager {
     }
 
     updateHomePage() {
-        // 由於 updateAllI18nElements() 已經處理了所有 data-i18n 元素，
-        // 這裡只需要處理特殊的按鈕邏輯（帶圖標的按鈕）
-        
-        // 更新英雄區塊的按鈕（需要保持圖標）
+        // 只確保英雄區塊按鈕的圖標存在且正確，不覆蓋 <span data-i18n>
         const buttons = document.querySelectorAll('.hero-buttons .btn');
         buttons.forEach(btn => {
             const span = btn.querySelector('span[data-i18n]');
             if (span) {
-                const key = span.getAttribute('data-i18n');
-                if (key === 'home.learnMore') {
-                    btn.innerHTML = `<i class="fas fa-info-circle me-2"></i>${this.getText('home.learnMore')}`;
-                } else if (key === 'home.joinUs') {
-                    btn.innerHTML = `<i class="fas fa-user-plus me-2"></i>${this.getText('home.joinUs')}`;
+                let iconClass = '';
+                if (span.getAttribute('data-i18n') === 'home.learnMore') {
+                    iconClass = 'fas fa-info-circle me-2';
+                } else if (span.getAttribute('data-i18n') === 'home.joinUs') {
+                    iconClass = 'fas fa-user-plus me-2';
                 }
+                // 如果沒有 <i> 或 <i> class 不正確，則修正
+                let icon = btn.querySelector('i');
+                if (!icon) {
+                    icon = document.createElement('i');
+                    btn.prepend(icon);
+                }
+                icon.className = iconClass;
             }
         });
     }
