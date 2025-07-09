@@ -73,6 +73,9 @@ class LanguageManager {
     }
 
     updatePageContent() {
+        // 更新所有帶有 data-i18n 屬性的元素
+        this.updateAllI18nElements();
+        
         // 更新導航欄
         this.updateNavigation();
         
@@ -81,6 +84,38 @@ class LanguageManager {
         
         // 更新頁腳
         this.updateFooter();
+    }
+
+    updateAllI18nElements() {
+        // 更新所有帶有 data-i18n 屬性的元素
+        const i18nElements = document.querySelectorAll('[data-i18n]');
+        i18nElements.forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            const text = this.getText(key);
+            if (text && text !== key) {
+                element.textContent = text;
+            }
+        });
+
+        // 更新所有帶有 data-i18n-placeholder 屬性的元素
+        const placeholderElements = document.querySelectorAll('[data-i18n-placeholder]');
+        placeholderElements.forEach(element => {
+            const key = element.getAttribute('data-i18n-placeholder');
+            const text = this.getText(key);
+            if (text && text !== key) {
+                element.placeholder = text;
+            }
+        });
+
+        // 更新頁面標題
+        const titleElement = document.querySelector('title[data-i18n]');
+        if (titleElement) {
+            const key = titleElement.getAttribute('data-i18n');
+            const text = this.getText(key);
+            if (text && text !== key) {
+                titleElement.textContent = text;
+            }
+        }
     }
 
     updateNavigation() {

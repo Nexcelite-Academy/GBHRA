@@ -7,11 +7,13 @@ const zhTW = {
         programs: "計劃項目",
         events: "活動資訊",
         contact: "聯絡我們",
-        language: "語言"
+        language: "語言",
+        brand: "大灣區醫療發展與研究協會"
     },
     
     // 首頁
     home: {
+        pageTitle: "大灣區醫療發展與研究協會 - 連接業界學界社區，共創健康未來",
         title: "連接醫療新世代，促進中港澳交流",
         subtitle: "由全球QS排名11的香港大學醫學生及排名40的澳洲昆士蘭大學物理治療學生創辦，匯聚港大、中大、劍橋、牛津、哈佛等醫學生及醫療專業顧問，推動大灣區醫療發展與學術交流。",
         learnMore: "了解協會",
@@ -31,12 +33,17 @@ const zhTW = {
         mentalHealth: "青年醫護社工精神健康交流體驗日",
         mentalHealthDesc: "聚焦青年醫護與社工精神健康，促進跨界交流與經驗分享，推動醫療與社會服務協作。",
         eventDetails: "活動詳情",
+        eventDate1: "2025年5月21日",
+        eventDate2: "2025年6月21日",
         partners: "合作夥伴",
         partnersSubtitle: "協會由香港大學醫學生、澳洲昆士蘭大學物理治療學生創辦，並與多所大學及醫療機構建立合作。",
         hkuStudents: "香港大學醫學生",
         qutStudents: "昆士蘭大學物理治療學生",
+        advisoryTeam: "協會顧問團隊",
         announcement: "協會公告",
-        announcementDesc: "歡迎醫學生及醫療相關學科同學加入協會，與來自世界頂尖大學的同儕共同推動醫療發展。"
+        announcementDesc: "歡迎醫學生及醫療相關學科同學加入協會，與來自世界頂尖大學的同儕共同推動醫療發展。",
+        announcementTitle: "協會公告",
+        learnMoreMembers: "了解更多協會成員"
     },
     
     // 關於我們
@@ -125,6 +132,11 @@ const zhTW = {
         subscribeDesc: "訂閱我們的電子通訊，獲取最新活動資訊和研究報告。",
         emailPlaceholder: "您的電郵地址",
         subscribeBtn: "訂閱",
+        social: "社交媒體",
+        phone: "+852 6025 6289",
+        email: "info@gbhra.org",
+        hours: "週一至週五 9:00-18:00",
+        address: "香港九龍灣宏開道16號德福大廈 611 號 03室",
         copyright: "© 2025 大灣區醫療發展與研究協會. 版權所有."
     }
 };
