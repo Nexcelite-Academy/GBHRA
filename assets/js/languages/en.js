@@ -75,8 +75,7 @@ const en = {
             title: "Non-executive Director and Co-founder & Honorary Strategic Director",
             desc: "Participating in the association's directional strategic planning and vision blueprint design, providing development advice and constructive support."
         },
-        advisors: "Advisory Team (Partial Members)",
-        advisorsSummary: "The association's advisory team covers diverse fields including medicine, law, social services, and international exchange, continuously expanding and welcoming more professionals to join.",
+        advisorsHeading: "Advisory Team (Partial Members)",
         advisors: {
             wong: {
                 name: "WONG Wai Sing",
@@ -137,17 +136,125 @@ const en = {
         futureDesc: "The association welcomes medical students, healthcare-related discipline students and professionals from Hong Kong, mainland China and overseas to join and jointly promote healthcare development in the Greater Bay Area. In the future, we will actively expand international cooperation, promote academic research and clinical practice, and organize more diverse activities."
     },
     
-    // Programs
+    // Programs page
     programs: {
+        pageTitle: "Programs | Greater Bay Area Healthcare Research Association",
         title: "Programs",
-        subtitle: "Three core programs of the association, promoting healthcare development and innovation",
-        education: "Healthcare Education Program",
-        educationDesc: "Through workshops, lectures and internship programs, we raise public health awareness and nurture the next generation of healthcare professionals.",
-        exchange: "Academic Exchange Program",
-        exchangeDesc: "Promote exchange and cooperation among healthcare institutions and universities within the Greater Bay Area, establish professional networks.",
-        research: "Research and Innovation Program",
-        researchDesc: "Support healthcare technology research projects, promote AI healthcare applications, and drive healthcare service innovation.",
-        learnMore: "Learn More"
+        subtitle: "Three major themes driving the development of healthcare in the Greater Bay Area through diverse activities promoting exchange and innovation",
+        overviewTitle: "Our Three Core Programs",
+        overviewSubtitle: "Through systematic program design, comprehensively promote the development and innovation of healthcare in the Greater Bay Area",
+        detailsTitle: "Detailed Activity Programs",
+        detailsSubtitle: "Specific activities and program content under each theme",
+        
+        culture: {
+            title: "Inherit Medical Culture",
+            desc: "Through educational programs and workshops, inherit Chinese traditional medical culture, enhance public health awareness, and cultivate a new generation of medical talents.",
+            sectionTitle: "Medical Culture Inheritance Activities",
+            lecture: {
+                frequency: "Regular Events",
+                title: "Health Awareness Lectures",
+                desc: "Regularly organize health education lectures to enhance public understanding of integrated Chinese and Western medicine, mental health, nutrition, and other topics.",
+                badge1: "Education Promotion",
+                badge2: "Public Health"
+            },
+            promotion: {
+                frequency: "Community Cooperation",
+                title: "Medical Culture Promotion",
+                desc: "Collaborate with schools and communities to promote medical culture, organize themed exhibitions and cultural experience activities.",
+                badge1: "Cultural Promotion",
+                badge2: "Community Cooperation"
+            },
+            workshop: {
+                frequency: "PBL Learning",
+                title: "One-Day Workshops",
+                desc: "Design medical cases using PBL (Problem-Based Learning) approach to cultivate clinical thinking and teamwork among medical students.",
+                badge1: "Skill Training",
+                badge2: "Case Learning"
+            },
+            features: {
+                title: "Cultural Inheritance Features",
+                item1: "Integrated Chinese and Western Medicine",
+                item2: "Interactive Learning Experience",
+                item3: "Professional Mentor Guidance",
+                item4: "Practical Skill Development",
+                button: "Learn More"
+            }
+        },
+        
+        exchange: {
+            title: "Deepen Cross-Regional Exchange",
+            desc: "Promote exchange and cooperation between medical institutions and universities in the Greater Bay Area, establish professional networks, and share best practices.",
+            sectionTitle: "Cross-Regional Exchange Programs",
+            volunteer: {
+                frequency: "Hospital Internship",
+                title: "Volunteer Exchange Opportunities",
+                desc: "Assist medical students in participating in volunteer exchanges at mainland hospitals to understand different healthcare systems and clinical practices.",
+                badge1: "Internship Opportunities",
+                badge2: "Cross-Regional Exchange"
+            },
+            institution: {
+                frequency: "Academic Cooperation",
+                title: "Institutional Collaboration",
+                desc: "Establish cooperation with medical schools inside and outside the Greater Bay Area to promote academic exchange and joint research.",
+                badge1: "Academic Exchange",
+                badge2: "Joint Research"
+            },
+            tour: {
+                frequency: "Annual Events",
+                title: "Exchange Tour Activities",
+                desc: "Organize annual medical exchange tours to visit mainland medical institutions and promote professional exchange among young people from both regions.",
+                badge1: "Visit Activities",
+                badge2: "Youth Exchange"
+            },
+            features: {
+                title: "Exchange Program Advantages",
+                item1: "Hands-on Learning Experience",
+                item2: "Professional Network Building",
+                item3: "Cross-Cultural Understanding",
+                item4: "Career Development Opportunities",
+                button: "Apply to Participate"
+            }
+        },
+        
+        technology: {
+            title: "Promote Medical Technology",
+            desc: "Promote medical technology innovation, support research projects, advance AI medical applications, and improve healthcare service quality and efficiency.",
+            sectionTitle: "Technology and Development Programs",
+            advisor: {
+                frequency: "Professional Support",
+                title: "Advisory Network",
+                desc: "Establish a diverse professional advisory team providing support in healthcare, legal, and technology fields.",
+                badge1: "Professional Advisors",
+                badge2: "Cross-Domain Support"
+            },
+            crossborder: {
+                frequency: "Regular Events",
+                title: "Cross-Border Exchange Meetings",
+                desc: "Regularly organize cross-border themed salons to promote exchange in healthcare, technology, social services, and other fields.",
+                badge1: "Cross-Border Cooperation",
+                badge2: "Themed Salons"
+            },
+            publication: {
+                frequency: "Knowledge Sharing",
+                title: "Publication and Research",
+                desc: "Publish electronic publications, promote medical innovation research, and facilitate knowledge sharing and inheritance.",
+                badge1: "Research Publication",
+                badge2: "Knowledge Inheritance"
+            },
+            features: {
+                title: "Technology Development Focus",
+                item1: "AI Medical Applications",
+                item2: "Innovation Research Support",
+                item3: "Professional Advisory Guidance",
+                item4: "Achievement Transformation and Promotion",
+                button: "Participate in Research"
+            }
+        },
+        
+        carousel: {
+            previous: "Previous",
+            next: "Next"
+        }
     },
     
     // Events

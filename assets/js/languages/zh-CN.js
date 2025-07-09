@@ -75,8 +75,7 @@ const zhCN = {
             title: "非执行干事及联席创办人兼荣誉策略总监",
             desc: "参与协会方向性策略规划与愿景蓝图设计，提供发展建议与建构性支援。"
         },
-        advisors: "顾问团队（部分成员）",
-        advisorsSummary: "协会顾问团队涵盖医学、法律、社会服务、国际交流等多元领域，持续扩展中，欢迎更多专业人士加入。",
+        advisorsHeading: "顾问团队（部分成员）",
         advisors: {
             wong: {
                 name: "黄炜陞",
@@ -139,15 +138,123 @@ const zhCN = {
     
     // 计划项目
     programs: {
+        pageTitle: "计划项目｜大湾区医疗发展与研究协会",
         title: "计划项目",
-        subtitle: "协会三大核心计划，推动医疗发展与创新",
-        education: "医疗教育计划",
-        educationDesc: "通过工作坊、讲座和实习计划，提升公众健康意识，培养新一代医疗人才。",
-        exchange: "学术交流计划",
-        exchangeDesc: "促进大湾区内医疗机构、院校之间的交流合作，建立专业网络。",
-        research: "研究创新计划",
-        researchDesc: "支持医疗科技研究项目，促进AI医疗应用，推动医疗服务创新。",
-        learnMore: "了解更多"
+        subtitle: "三大主题推动大湾区医疗健康事业发展，通过多元化活动促进交流与创新",
+        overviewTitle: "我们的三大核心计划",
+        overviewSubtitle: "通过系统性的计划设计，全方位推动大湾区医疗健康事业的发展与创新",
+        detailsTitle: "详细活动项目",
+        detailsSubtitle: "每个主题下的具体活动与计划内容",
+        
+        culture: {
+            title: "传承医疗文化",
+            desc: "通过教育计划和工作坊，传承中华传统医学文化，提升公众健康意识，培养新一代医疗人才。",
+            sectionTitle: "医疗文化传承活动",
+            lecture: {
+                frequency: "定期举办",
+                title: "健康意识讲座",
+                desc: "定期举办健康教育讲座，提升公众对中西医结合、心理健康、营养保健等主题的认识。",
+                badge1: "教育推广",
+                badge2: "公众健康"
+            },
+            promotion: {
+                frequency: "社区合作",
+                title: "医学文化推广",
+                desc: "与学校、社区合作推广医学文化，举办主题展览、文化体验活动。",
+                badge1: "文化推广",
+                badge2: "社区合作"
+            },
+            workshop: {
+                frequency: "PBL学习",
+                title: "一日工作坊",
+                desc: "以PBL（问题导向学习）方式设计医学案例，培养医学生临床思维与团队合作。",
+                badge1: "技能培训",
+                badge2: "案例学习"
+            },
+            features: {
+                title: "文化传承特色",
+                item1: "中西医结合理念",
+                item2: "互动式学习体验",
+                item3: "专业导师指导",
+                item4: "实用技能培养",
+                button: "了解更多"
+            }
+        },
+        
+        exchange: {
+            title: "加深两地交流",
+            desc: "促进大湾区医疗机构、院校之间的交流合作，建立专业网络，分享最佳实践经验。",
+            sectionTitle: "两地交流计划",
+            volunteer: {
+                frequency: "医院实习",
+                title: "义务交流机会",
+                desc: "协助医学生参与内地医院义务交流，了解不同医疗体制与临床实践。",
+                badge1: "实习机会",
+                badge2: "跨地交流"
+            },
+            institution: {
+                frequency: "学术合作",
+                title: "院校合作",
+                desc: "与大湾区内外医学院校建立合作，推动学术交流与联合研究。",
+                badge1: "学术交流",
+                badge2: "联合研究"
+            },
+            tour: {
+                frequency: "年度活动",
+                title: "交流团活动",
+                desc: "组织年度医疗交流团，参访内地医疗机构，促进两地青年专业交流。",
+                badge1: "参访活动",
+                badge2: "青年交流"
+            },
+            features: {
+                title: "交流计划优势",
+                item1: "实地体验学习",
+                item2: "专业网络建立",
+                item3: "跨文化理解",
+                item4: "职业发展机会",
+                button: "申请参与"
+            }
+        },
+        
+        technology: {
+            title: "促进医疗科技",
+            desc: "推动医疗科技创新，支持研究项目，促进AI医疗应用，提升医疗服务质量效率。",
+            sectionTitle: "科技与发展计划",
+            advisor: {
+                frequency: "专业支援",
+                title: "顾问网络",
+                desc: "建立多元专业顾问团队，提供医疗、法律、科技等领域支援。",
+                badge1: "专业顾问",
+                badge2: "跨领域支援"
+            },
+            crossborder: {
+                frequency: "定期举办",
+                title: "跨界交流会",
+                desc: "定期举办跨界主题沙龙，促进医疗、科技、社会服务等领域交流。",
+                badge1: "跨界合作",
+                badge2: "主题沙龙"
+            },
+            publication: {
+                frequency: "知识分享",
+                title: "刊物出版与研究",
+                desc: "发行电子刊物、推动医疗创新研究，促进成果分享与知识传承。",
+                badge1: "研究出版",
+                badge2: "知识传承"
+            },
+            features: {
+                title: "科技发展重点",
+                item1: "AI医疗应用",
+                item2: "创新研究支持",
+                item3: "专业顾问指导",
+                item4: "成果转化推广",
+                button: "参与研究"
+            }
+        },
+        
+        carousel: {
+            previous: "上一个",
+            next: "下一个"
+        }
     },
     
     // 活动资讯

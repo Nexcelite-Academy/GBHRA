@@ -75,53 +75,19 @@ const zhTW = {
             title: "非執行幹事及聯席創辦人兼榮譽策略總監",
             desc: "參與協會方向性策略規劃與願景藍圖設計，提供發展建議與建構性支援。"
         },
-        advisors: "顧問團隊（部分成員）",
-        advisorsSummary: "協會顧問團隊涵蓋醫學、法律、社會服務、國際交流等多元領域，持續擴展中，歡迎更多專業人士加入。",
+        advisorsHeading: "顧問團隊（部分成員）",
         advisors: {
-            wong: {
-                name: "黃煒陞",
-                title: "香港青年創業家促進會主席"
-            },
-            pan: {
-                name: "潘永祥 JP BBS",
-                title: "資深社會領袖、公共事務顧問"
-            },
-            tang: {
-                name: "唐楚軒醫生",
-                title: "醫學顧問"
-            },
-            underwood: {
-                name: "Dr Ben Underwood",
-                title: "英國劍橋精神科顧問醫生"
-            },
-            hung: {
-                name: "Ivan Hung",
-                title: "醫學教授、學術顧問"
-            },
-            chan: {
-                name: "Enoch Chan",
-                title: "醫學顧問"
-            },
-            shih: {
-                name: "Kendrick Shih",
-                title: "法律顧問"
-            },
-            see: {
-                name: "Christopher See",
-                title: "醫學顧問"
-            },
-            yang: {
-                name: "Jian Yang",
-                title: "醫學顧問"
-            },
-            cecot: {
-                name: "Tomasz Cecot",
-                title: "國際醫療顧問"
-            },
-            lau: {
-                name: "C S Lau",
-                title: "醫學教授、學術顧問"
-            }
+            wong: { name: "黃煒陞", title: "香港青年創業家促進會主席" },
+            pan: { name: "潘永祥 JP BBS", title: "資深社會領袖、公共事務顧問" },
+            tang: { name: "唐楚軒醫生", title: "醫學顧問" },
+            underwood: { name: "Dr Ben Underwood", title: "英國劍橋精神科顧問醫生" },
+            hung: { name: "Ivan Hung", title: "醫學教授、學術顧問" },
+            chan: { name: "Enoch Chan", title: "醫學顧問" },
+            shih: { name: "Kendrick Shih", title: "法律顧問" },
+            see: { name: "Christopher See", title: "醫學顧問" },
+            yang: { name: "Jian Yang", title: "醫學顧問" },
+            cecot: { name: "Tomasz Cecot", title: "國際醫療顧問" },
+            lau: { name: "C S Lau", title: "醫學教授、學術顧問" }
         },
         structure: "組織結構與發展歷程",
         structureDesc: "協會採用分工協作機制，設有主席、副主席、非執行幹事及榮譽策略總監等職位，並設立顧問團隊、專案小組等。自2025年成立以來，已舉辦多場醫療交流活動，並積極籌備更多跨境合作計劃。",
@@ -137,17 +103,125 @@ const zhTW = {
         futureDesc: "協會歡迎來自香港、內地及海外的醫學生、醫療相關學科學生及專業人士加入，共同推動大灣區醫療健康事業發展。未來將積極拓展國際合作、推動學術研究與臨床實踐，並舉辦更多多元化活動。"
     },
     
-    // 計劃項目
+    // Programs 頁面
     programs: {
+        pageTitle: "計劃項目｜大灣區醫療發展與研究協會",
         title: "計劃項目",
-        subtitle: "協會三大核心計劃，推動醫療發展與創新",
-        education: "醫療教育計劃",
-        educationDesc: "通過工作坊、講座和實習計劃，提升公眾健康意識，培養新一代醫療人才。",
-        exchange: "學術交流計劃",
-        exchangeDesc: "促進大灣區內醫療機構、院校之間的交流合作，建立專業網絡。",
-        research: "研究創新計劃",
-        researchDesc: "支持醫療科技研究項目，促進AI醫療應用，推動醫療服務創新。",
-        learnMore: "了解更多"
+        subtitle: "三大主題推動大灣區醫療健康事業發展，通過多元化活動促進交流與創新",
+        overviewTitle: "我們的三大核心計劃",
+        overviewSubtitle: "通過系統性的計劃設計，全方位推動大灣區醫療健康事業的發展與創新",
+        detailsTitle: "詳細活動項目",
+        detailsSubtitle: "每個主題下的具體活動與計劃內容",
+        
+        culture: {
+            title: "傳承醫療文化",
+            desc: "通過教育計劃和工作坊，傳承中華傳統醫學文化，提升公眾健康意識，培養新一代醫療人才。",
+            sectionTitle: "醫療文化傳承活動",
+            lecture: {
+                frequency: "定期舉辦",
+                title: "健康意識講座",
+                desc: "定期舉辦健康教育講座，提升公眾對中西醫結合、心理健康、營養保健等主題的認識。",
+                badge1: "教育推廣",
+                badge2: "公眾健康"
+            },
+            promotion: {
+                frequency: "社區合作",
+                title: "醫學文化推廣",
+                desc: "與學校、社區合作推廣醫學文化，舉辦主題展覽、文化體驗活動。",
+                badge1: "文化推廣",
+                badge2: "社區合作"
+            },
+            workshop: {
+                frequency: "PBL學習",
+                title: "一日工作坊",
+                desc: "以PBL（問題導向學習）方式設計醫學案例，培養醫學生臨床思維與團隊合作。",
+                badge1: "技能培訓",
+                badge2: "案例學習"
+            },
+            features: {
+                title: "文化傳承特色",
+                item1: "中西醫結合理念",
+                item2: "互動式學習體驗",
+                item3: "專業導師指導",
+                item4: "實用技能培養",
+                button: "了解更多"
+            }
+        },
+        
+        exchange: {
+            title: "加深兩地交流",
+            desc: "促進大灣區內醫療機構、院校之間的交流合作，建立專業網絡，分享最佳實踐經驗。",
+            sectionTitle: "兩地交流計劃",
+            volunteer: {
+                frequency: "醫院實習",
+                title: "義務交流機會",
+                desc: "協助醫學生參與內地醫院義務交流，了解不同醫療體制與臨床實踐。",
+                badge1: "實習機會",
+                badge2: "跨地交流"
+            },
+            institution: {
+                frequency: "學術合作",
+                title: "院校合作",
+                desc: "與大灣區內外醫學院校建立合作，推動學術交流與聯合研究。",
+                badge1: "學術交流",
+                badge2: "聯合研究"
+            },
+            tour: {
+                frequency: "年度活動",
+                title: "交流團活動",
+                desc: "組織年度醫療交流團，參訪內地醫療機構，促進兩地青年專業交流。",
+                badge1: "參訪活動",
+                badge2: "青年交流"
+            },
+            features: {
+                title: "交流計劃優勢",
+                item1: "實地體驗學習",
+                item2: "專業網絡建立",
+                item3: "跨文化理解",
+                item4: "職業發展機會",
+                button: "申請參與"
+            }
+        },
+        
+        technology: {
+            title: "促進醫療科技",
+            desc: "推動醫療科技創新，支持研究項目，促進AI醫療應用，提升醫療服務質量和效率。",
+            sectionTitle: "科技與發展計劃",
+            advisor: {
+                frequency: "專業支援",
+                title: "顧問網絡",
+                desc: "建立多元專業顧問團隊，提供醫療、法律、科技等領域支援。",
+                badge1: "專業顧問",
+                badge2: "跨領域支援"
+            },
+            crossborder: {
+                frequency: "定期舉辦",
+                title: "跨界交流會",
+                desc: "定期舉辦跨界主題沙龍，促進醫療、科技、社會服務等領域交流。",
+                badge1: "跨界合作",
+                badge2: "主題沙龍"
+            },
+            publication: {
+                frequency: "知識分享",
+                title: "刊物出版與研究",
+                desc: "發行電子刊物、推動醫療創新研究，促進成果分享與知識傳承。",
+                badge1: "研究出版",
+                badge2: "知識傳承"
+            },
+            features: {
+                title: "科技發展重點",
+                item1: "AI醫療應用",
+                item2: "創新研究支持",
+                item3: "專業顧問指導",
+                item4: "成果轉化推廣",
+                button: "參與研究"
+            }
+        },
+        
+        carousel: {
+            previous: "上一個",
+            next: "下一個"
+        }
     },
     
     // 活動資訊
