@@ -381,16 +381,19 @@ const en = {
     
     // Footer
     footer: {
-        aboutTitle: "About Association",
-        aboutDescription: "The Greater Bay Area Healthcare Research Association is dedicated to promoting healthcare knowledge education, health industry innovation, and intergenerational professional inheritance, driving high-quality development of healthcare in the Greater Bay Area.",
-        quickLinksTitle: "Quick Links",
-        aboutLink: "About Us",
-        programsLink: "Programs",
-        eventsLink: "Events",
-        contactLink: "Contact Us",
-        contactTitle: "Contact Information",
-        address: "8 Financial Street, Central, Hong Kong",
+        about: "About Association",
+        aboutDesc: "The Greater Bay Area Healthcare Research Association is dedicated to inheriting medical culture, deepening cross-regional exchanges, and promoting medical technology development, contributing to healthcare in the Greater Bay Area.",
+        quickLinks: "Quick Links",
+        contactInfo: "Contact Information",
+        subscribe: "Subscribe to Newsletter",
+        subscribeDesc: "Subscribe to our electronic newsletter to receive the latest event information and research reports.",
+        emailPlaceholder: "Your Email Address",
+        subscribeBtn: "Subscribe",
+        social: "Social Media",
+        phone: "+852 6025 6289",
         email: "info@gbhra.org",
+        hours: "Monday to Friday 9:00-18:00",
+        address: "Room 03, 611, Telford Plaza, 16 Wang Kwong Road, Kowloon Bay, Hong Kong",
         copyright: "© 2025 Greater Bay Area Healthcare Research Association. All rights reserved."
     }
 };

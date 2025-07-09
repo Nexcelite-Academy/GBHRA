@@ -348,16 +348,19 @@ const zhTW = {
     
     // 頁腳
     footer: {
-        aboutTitle: "關於協會",
-        aboutDescription: "大灣區醫療發展與研究協會致力於促進醫療知識教育、健康產業創新、跨代專業傳承，推動大灣區醫療健康事業高質量發展。",
-        quickLinksTitle: "快速連結",
-        aboutLink: "關於我們",
-        programsLink: "計劃項目",
-        eventsLink: "活動資訊",
-        contactLink: "聯絡我們",
-        contactTitle: "聯絡資訊",
-        address: "香港中環金融街8號",
+        about: "關於協會",
+        aboutDesc: "大灣區醫療發展與研究協會致力於傳承醫療文化、加深兩地交流、促進醫療科技發展，為大灣區醫療健康事業貢獻力量。",
+        quickLinks: "快速連結",
+        contactInfo: "聯絡資訊",
+        subscribe: "訂閱通訊",
+        subscribeDesc: "訂閱我們的電子通訊，獲取最新活動資訊和研究報告。",
+        emailPlaceholder: "您的電郵地址",
+        subscribeBtn: "訂閱",
+        social: "社交媒體",
+        phone: "+852 6025 6289",
         email: "info@gbhra.org",
+        hours: "週一至週五 9:00-18:00",
+        address: "香港九龍灣宏開道16號德福大廈 611 號 03室",
         copyright: "© 2025 大灣區醫療發展與研究協會. 版權所有."
     }
 };

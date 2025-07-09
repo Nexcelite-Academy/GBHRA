@@ -381,16 +381,19 @@ const zhCN = {
     
     // 页脚
     footer: {
-        aboutTitle: "关于协会",
-        aboutDescription: "大湾区医疗发展与研究协会致力于促进医疗知识教育、健康产业创新、跨代专业传承，推动大湾区医疗健康事业高质量发展。",
-        quickLinksTitle: "快速链接",
-        aboutLink: "关于我们",
-        programsLink: "计划项目",
-        eventsLink: "活动资讯",
-        contactLink: "联系我们",
-        contactTitle: "联系信息",
-        address: "香港中环金融街8号",
+        about: "关于协会",
+        aboutDesc: "大湾区医疗发展与研究协会致力于传承医疗文化、加深两地交流、促进医疗科技发展，为大湾区医疗健康事业贡献力量。",
+        quickLinks: "快速链接",
+        contactInfo: "联系信息",
+        subscribe: "订阅通讯",
+        subscribeDesc: "订阅我们的电子通讯，获取最新活动信息和研究报告。",
+        emailPlaceholder: "您的电邮地址",
+        subscribeBtn: "订阅",
+        social: "社交媒体",
+        phone: "+852 6025 6289",
         email: "info@gbhra.org",
+        hours: "周一至周五 9:00-18:00",
+        address: "香港九龙湾宏开道16号德福大厦 611 号 03室",
         copyright: "© 2025 大湾区医疗发展与研究协会. 版权所有."
     }
 };
