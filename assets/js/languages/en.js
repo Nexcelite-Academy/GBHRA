@@ -278,27 +278,35 @@ const en = {
         }
     },
     
-    // Contact
+    // Contact page
     contact: {
+        pageTitle: "Contact Us | Greater Bay Area Healthcare Research Association",
         title: "Contact Us",
-        subtitle: "Get in touch with us to learn more about the association",
-        address: "Address",
-        addressValue: "Room 03, 611, Telford Plaza, 16 Wang Kwong Road, Kowloon Bay, Hong Kong",
-        phone: "Phone",
-        phoneValue: "+852 6025 6289",
-        email: "Email",
-        emailValue: "info@gbhra.org",
-        hours: "Office Hours",
-        hoursValue: "Monday to Friday 9:00-18:00",
-        sendMessage: "Send Message",
-        name: "Name",
-        namePlaceholder: "Your Name",
-        emailPlaceholder: "Your Email Address",
-        subject: "Subject",
-        subjectPlaceholder: "Message Subject",
-        message: "Message",
-        messagePlaceholder: "Your Message Content",
-        submit: "Submit"
+        infoTitle: "Contact Information",
+        formTitle: "Online Inquiry",
+        faqTitle: "Frequently Asked Questions (FAQ)",
+        joinTitle: "Join Us",
+        info: {
+            addressLabel: "Office Address:",
+            address: "Room 03, 611, Tak Fu Building, 16 Wang Hoi Road, Kowloon Bay, Hong Kong",
+            emailLabel: "Email:",
+            email: "info@gbhra.org",
+            phoneLabel: "Phone:",
+            phone: "+852 6025 6289"
+        },
+        faq: [
+            { q: "How to join the association?", a: "Fill in the application form above or email us. Once approved, you can become a member." },
+            { q: "What activities does the association have?", a: "The association regularly organizes medical lectures, exchange tours, academic research, and more. See the Events page for details." },
+            { q: "Do you accept volunteers or cooperation proposals?", a: "Medical students, professionals, and all sectors are welcome to apply for cooperation or volunteer opportunities." }
+        ],
+        join: {
+            memberLabel: "Membership Application:",
+            member: "Medical students, healthcare-related students, and professionals are welcome to apply for membership.",
+            volunteerLabel: "Volunteer Recruitment:",
+            volunteer: "Young people who are passionate about healthcare development are welcome to join our volunteer team.",
+            coopLabel: "Cooperation Proposal:",
+            coop: "All sectors are welcome to propose cooperation plans to jointly promote healthcare in the Greater Bay Area."
+        }
     },
     
     // Footer

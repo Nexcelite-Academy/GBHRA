@@ -280,25 +280,33 @@ const zhCN = {
     
     // 联系我们
     contact: {
+        pageTitle: "联系我们｜大湾区医疗发展与研究协会",
         title: "联系我们",
-        subtitle: "与我们联系，了解更多关于协会的信息",
-        address: "地址",
-        addressValue: "香港九龙湾宏开道16号德福大厦 611 号 03室",
-        phone: "电话",
-        phoneValue: "+852 6025 6289",
-        email: "电邮",
-        emailValue: "info@gbhra.org",
-        hours: "办公时间",
-        hoursValue: "周一至周五 9:00-18:00",
-        sendMessage: "发送讯息",
-        name: "姓名",
-        namePlaceholder: "您的姓名",
-        emailPlaceholder: "您的电邮地址",
-        subject: "主题",
-        subjectPlaceholder: "讯息主题",
-        message: "讯息",
-        messagePlaceholder: "您的讯息内容",
-        submit: "提交"
+        infoTitle: "联系信息",
+        formTitle: "在线查询",
+        faqTitle: "常见问题 FAQ",
+        joinTitle: "加入我们",
+        info: {
+            addressLabel: "办公地址：",
+            address: "香港九龙湾宏开道16号德福大厦 611 号 03室",
+            emailLabel: "电邮：",
+            email: "info@gbhra.org",
+            phoneLabel: "电话：",
+            phone: "+852 6025 6289"
+        },
+        faq: [
+            { q: "如何加入协会？", a: "填写上方申请表或电邮联系我们，审核通过后即可成为会员。" },
+            { q: "协会有什么活动？", a: "协会定期举办医疗讲座、交流团、学术研究等多元活动，详见活动资讯页。" },
+            { q: "是否接受义工或合作提案？", a: "欢迎医学生、医疗专业人士及社会各界提出合作或义工申请。" }
+        ],
+        join: {
+            memberLabel: "会员申请：",
+            member: "欢迎医学生、医疗相关学科学生及专业人士申请成为协会会员。",
+            volunteerLabel: "义工招募：",
+            volunteer: "欢迎有志推动医疗发展的青年加入义工团队。",
+            coopLabel: "合作提案：",
+            coop: "欢迎各界提出合作计划，共同推动大湾区医疗健康事业。"
+        }
     },
     
     // 页脚

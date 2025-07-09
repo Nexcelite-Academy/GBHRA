@@ -247,25 +247,33 @@ const zhTW = {
     
     // 聯絡我們
     contact: {
+        pageTitle: "聯絡我們｜大灣區醫療發展與研究協會",
         title: "聯絡我們",
-        subtitle: "與我們聯繫，了解更多關於協會的信息",
-        address: "地址",
-        addressValue: "香港九龍灣宏開道16號德福大廈 611 號 03室",
-        phone: "電話",
-        phoneValue: "+852 6025 6289",
-        email: "電郵",
-        emailValue: "info@gbhra.org",
-        hours: "辦公時間",
-        hoursValue: "週一至週五 9:00-18:00",
-        sendMessage: "發送訊息",
-        name: "姓名",
-        namePlaceholder: "您的姓名",
-        emailPlaceholder: "您的電郵地址",
-        subject: "主題",
-        subjectPlaceholder: "訊息主題",
-        message: "訊息",
-        messagePlaceholder: "您的訊息內容",
-        submit: "提交"
+        infoTitle: "聯絡資訊",
+        formTitle: "線上查詢",
+        faqTitle: "常見問題 FAQ",
+        joinTitle: "加入我們",
+        info: {
+            addressLabel: "辦公地址：",
+            address: "香港九龍灣宏開道16號德福大廈 611 號 03室",
+            emailLabel: "電郵：",
+            email: "info@gbhra.org",
+            phoneLabel: "電話：",
+            phone: "+852 6025 6289"
+        },
+        faq: [
+            { q: "如何加入協會？", a: "填寫上方申請表或電郵聯絡我們，審核通過後即可成為會員。" },
+            { q: "協會有什麼活動？", a: "協會定期舉辦醫療講座、交流團、學術研究等多元活動，詳見活動資訊頁。" },
+            { q: "是否接受義工或合作提案？", a: "歡迎醫學生、醫療專業人士及社會各界提出合作或義工申請。" }
+        ],
+        join: {
+            memberLabel: "會員申請：",
+            member: "歡迎醫學生、醫療相關學科學生及專業人士申請成為協會會員。",
+            volunteerLabel: "義工招募：",
+            volunteer: "歡迎有志推動醫療發展的青年加入義工團隊。",
+            coopLabel: "合作提案：",
+            coop: "歡迎各界提出合作計劃，共同推動大灣區醫療健康事業。"
+        }
     },
     
     // 頁腳
