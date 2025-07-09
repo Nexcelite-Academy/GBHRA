@@ -171,79 +171,22 @@ class LanguageManager {
     }
 
     updateHomePage() {
-        // 更新英雄區塊
-        const heroTitle = document.querySelector('.hero-title');
-        if (heroTitle) heroTitle.textContent = this.getText('home.title');
+        // 由於 updateAllI18nElements() 已經處理了所有 data-i18n 元素，
+        // 這裡只需要處理特殊的按鈕邏輯（帶圖標的按鈕）
         
-        const heroSubtitle = document.querySelector('.hero-subtitle');
-        if (heroSubtitle) heroSubtitle.textContent = this.getText('home.subtitle');
-        
-        // 更新按鈕
+        // 更新英雄區塊的按鈕（需要保持圖標）
         const buttons = document.querySelectorAll('.hero-buttons .btn');
         buttons.forEach(btn => {
-            if (btn.textContent.includes('了解協會') || btn.textContent.includes('了解协会') || btn.textContent.includes('Learn More')) {
-                btn.innerHTML = `<i class="fas fa-info-circle me-2"></i>${this.getText('home.learnMore')}`;
-            } else if (btn.textContent.includes('加入我們') || btn.textContent.includes('加入我们') || btn.textContent.includes('Join Us')) {
-                btn.innerHTML = `<i class="fas fa-user-plus me-2"></i>${this.getText('home.joinUs')}`;
+            const span = btn.querySelector('span[data-i18n]');
+            if (span) {
+                const key = span.getAttribute('data-i18n');
+                if (key === 'home.learnMore') {
+                    btn.innerHTML = `<i class="fas fa-info-circle me-2"></i>${this.getText('home.learnMore')}`;
+                } else if (key === 'home.joinUs') {
+                    btn.innerHTML = `<i class="fas fa-user-plus me-2"></i>${this.getText('home.joinUs')}`;
+                }
             }
         });
-        
-        // 更新使命區塊
-        const missionTitle = document.querySelector('.section-title');
-        if (missionTitle) missionTitle.textContent = this.getText('home.mission');
-        
-        const missionSubtitle = document.querySelector('.section-subtitle');
-        if (missionSubtitle) missionSubtitle.textContent = this.getText('home.missionSubtitle');
-        
-        // 更新特色卡片
-        const featureCards = document.querySelectorAll('.feature-card');
-        featureCards.forEach((card, index) => {
-            const title = card.querySelector('.feature-title');
-            const desc = card.querySelector('.feature-description');
-            
-            if (index === 0) {
-                if (title) title.textContent = this.getText('home.culture');
-                if (desc) desc.textContent = this.getText('home.cultureDesc');
-            } else if (index === 1) {
-                if (title) title.textContent = this.getText('home.exchange');
-                if (desc) desc.textContent = this.getText('home.exchangeDesc');
-            } else if (index === 2) {
-                if (title) title.textContent = this.getText('home.technology');
-                if (desc) desc.textContent = this.getText('home.technologyDesc');
-            }
-        });
-        
-        // 更新最新動態
-        const latestNewsTitle = document.querySelector('h2.section-title');
-        if (latestNewsTitle) latestNewsTitle.textContent = this.getText('home.latestNews');
-        
-        const latestNewsSubtitle = document.querySelector('.section-subtitle');
-        if (latestNewsSubtitle) latestNewsSubtitle.textContent = this.getText('home.latestNewsSubtitle');
-        
-        // 更新活動卡片
-        const eventCards = document.querySelectorAll('.card');
-        eventCards.forEach((card, index) => {
-            const title = card.querySelector('.card-title');
-            const desc = card.querySelector('.card-text');
-            const btn = card.querySelector('.btn');
-            
-            if (index === 0) {
-                if (title) title.textContent = this.getText('home.gd2hospital');
-                if (desc) desc.textContent = this.getText('home.gd2hospitalDesc');
-            } else if (index === 1) {
-                if (title) title.textContent = this.getText('home.mentalHealth');
-                if (desc) desc.textContent = this.getText('home.mentalHealthDesc');
-            }
-            
-            if (btn) btn.textContent = this.getText('home.eventDetails');
-        });
-        
-        // 更新合作夥伴
-        const partnersTitle = document.querySelector('h2.section-title:last-of-type');
-        if (partnersTitle) partnersTitle.textContent = this.getText('home.partners');
-        
-        const partnersSubtitle = document.querySelector('.section-subtitle:last-of-type');
-        if (partnersSubtitle) partnersSubtitle.textContent = this.getText('home.partnersSubtitle');
     }
 
     updateAboutPage() {
@@ -329,7 +272,7 @@ class LanguageManager {
             return 'about';
         } else if (path.includes('programs.html')) {
             return 'programs';
-        } else if (path.includes('events.html')) {
+        } else if (path.includes('events.html') && !path.includes('event-')) {
             return 'events';
         } else if (path.includes('contact.html')) {
             return 'contact';
