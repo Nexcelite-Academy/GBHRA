@@ -87,7 +87,8 @@ const zhTW = {
             see: { name: "Christopher See", title: "醫學顧問" },
             yang: { name: "Jian Yang", title: "醫學顧問" },
             cecot: { name: "Tomasz Cecot", title: "國際醫療顧問" },
-            lau: { name: "C S Lau", title: "醫學教授、學術顧問" }
+            lau: { name: "C S Lau", title: "醫學教授、學術顧問" },
+            li: { name: "Patrick Li", title: "榮譽顧問 – 中文教育與文化傳承" }
         },
         structure: "組織結構與發展歷程",
         structureDesc: "協會採用分工協作機制，設有主席、副主席、非執行幹事及榮譽策略總監等職位，並設立顧問團隊、專案小組等。自2025年成立以來，已舉辦多場醫療交流活動，並積極籌備更多跨境合作計劃。",

@@ -120,6 +120,10 @@ const en = {
             lau: {
                 name: "C S Lau",
                 title: "Medical Professor, Academic Advisor"
+            },
+            li: {
+                name: "Patrick Li",
+                title: "Honorary Advisor - Chinese Education & Cultural Heritage"
             }
         },
         structure: "Organizational Structure and Development History",

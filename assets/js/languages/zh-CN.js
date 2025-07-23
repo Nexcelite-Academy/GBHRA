@@ -120,6 +120,10 @@ const zhCN = {
             lau: {
                 name: "C S Lau",
                 title: "医学教授、学术顾问"
+            },
+            li: {
+                name: "Patrick Li",
+                title: "荣誉顾问 – 中文教育与文化传承"
             }
         },
         structure: "组织结构与发展历程",
