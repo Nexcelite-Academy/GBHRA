@@ -82,12 +82,11 @@ const zhTW = {
             tang: { name: "唐楚軒醫生", title: "醫學顧問" },
             underwood: { name: "Dr Ben Underwood", title: "英國劍橋精神科顧問醫生" },
             hung: { name: "Ivan Hung", title: "醫學教授、學術顧問" },
-            chan: { name: "Enoch Chan", title: "醫學顧問" },
             shih: { name: "Kendrick Shih", title: "法律顧問" },
             see: { name: "Christopher See", title: "醫學顧問" },
             yang: { name: "Jian Yang", title: "醫學顧問" },
             cecot: { name: "Tomasz Cecot", title: "國際醫療顧問" },
-            lau: { name: "C S Lau", title: "醫學教授、學術顧問" },
+            lau: { name: "劉澤星教授", englishName: "Professor Chak-sing Lau", title: "高級榮譽顧問 – 醫學發展與學術領導", subtitle: "香港大學李嘉誠醫學院院長、暫任副校長（健康）| 風濕病學及臨床免疫學講座教授", badge: "高級榮譽顧問" },
             li: { name: "Patrick Li", title: "榮譽顧問 – 中文教育與文化傳承" }
         },
         structure: "組織結構與發展歷程",

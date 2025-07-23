@@ -97,10 +97,6 @@ const zhCN = {
                 name: "Ivan Hung",
                 title: "医学教授、学术顾问"
             },
-            chan: {
-                name: "Enoch Chan",
-                title: "医学顾问"
-            },
             shih: {
                 name: "Kendrick Shih",
                 title: "法律顾问"
@@ -118,8 +114,11 @@ const zhCN = {
                 title: "国际医疗顾问"
             },
             lau: {
-                name: "C S Lau",
-                title: "医学教授、学术顾问"
+                name: "刘泽星教授",
+                englishName: "Professor Chak-sing Lau",
+                title: "高级荣誉顾问 – 医学发展与学术领导",
+                subtitle: "香港大学李嘉诚医学院院长、暂任副校长（健康）| 风湿病学及临床免疫学讲座教授",
+                badge: "高级荣誉顾问"
             },
             li: {
                 name: "Patrick Li",

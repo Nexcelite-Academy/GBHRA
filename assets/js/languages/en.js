@@ -97,10 +97,6 @@ const en = {
                 name: "Ivan Hung",
                 title: "Medical Professor, Academic Advisor"
             },
-            chan: {
-                name: "Enoch Chan",
-                title: "Medical Advisor"
-            },
             shih: {
                 name: "Kendrick Shih",
                 title: "Legal Advisor"
@@ -118,8 +114,11 @@ const en = {
                 title: "International Healthcare Advisor"
             },
             lau: {
-                name: "C S Lau",
-                title: "Medical Professor, Academic Advisor"
+                name: "Professor Chak-sing Lau",
+                chineseName: "劉澤星教授",
+                title: "Senior Honorary Advisor - Medical Development & Academic Leadership",
+                subtitle: "Dean of Li Ka Shing Faculty of Medicine, HKU | Interim Vice-President & Pro-Vice-Chancellor (Health) | Chair Professor of Rheumatology and Clinical Immunology",
+                badge: "Senior Honorary Advisor"
             },
             li: {
                 name: "Patrick Li",
