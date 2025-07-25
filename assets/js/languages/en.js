@@ -8,12 +8,12 @@ const en = {
         events: "Events",
         contact: "Contact",
         language: "Language",
-        brand: "Greater Bay Area Healthcare Research Association"
+        brand: "The Greater Bay Area Healthcare Development and Research Association"
     },
     
     // Home page
     home: {
-        pageTitle: "Greater Bay Area Healthcare Research Association - Connecting Industry, Academia and Community for a Healthy Future",
+        pageTitle: "The Greater Bay Area Healthcare Development and Research Association - Connecting Industry, Academia and Community for a Healthy Future",
         title: "Connecting New Generation of Healthcare, Promoting Exchange Among China, Hong Kong and Macau",
         subtitle: "Founded by medical students from the University of Hong Kong (QS World Ranking #11) and physiotherapy students from the University of Queensland (QS World Ranking #40), bringing together medical students and healthcare professional advisors from HKU, CUHK, Cambridge, Oxford, Harvard and other institutions to promote healthcare development and academic exchange in the Greater Bay Area.",
         learnMore: "Learn About Us",
@@ -48,7 +48,7 @@ const en = {
     
     // About Us
     about: {
-        pageTitle: "About Us | Greater Bay Area Healthcare Research Association",
+        pageTitle: "About Us | The Greater Bay Area Healthcare Development and Research Association",
         title: "About Us",
         subtitle: "Association Mission, Team and Development Blueprint",
         mission: "Association Mission and Development Direction",
@@ -165,7 +165,7 @@ const en = {
     
     // Programs page
     programs: {
-        pageTitle: "Programs | Greater Bay Area Healthcare Research Association",
+        pageTitle: "Programs | The Greater Bay Area Healthcare Development and Research Association",
         title: "Programs",
         subtitle: "Three major themes driving the development of healthcare in the Greater Bay Area through diverse activities promoting exchange and innovation",
         overviewTitle: "Our Three Core Programs",
@@ -286,7 +286,7 @@ const en = {
     
     // Events page
     events: {
-        pageTitle: "Events | Greater Bay Area Healthcare Research Association",
+        pageTitle: "Events | The Greater Bay Area Healthcare Development and Research Association",
         title: "Events",
         subtitle: "Latest activities and exchange achievements of the association",
         cards: {
@@ -308,13 +308,13 @@ const en = {
     // Guangdong Second TCM Hospital Exchange Event Detail Page
     event: {
         gd2hospital: {
-            pageTitle: "Guangdong Second Traditional Chinese Medicine Hospital Exchange | Event Details | Greater Bay Area Healthcare Research Association",
+            pageTitle: "Guangdong Second Traditional Chinese Medicine Hospital Exchange | Event Details | The Greater Bay Area Healthcare Development and Research Association",
             date: "May 21, 2025",
             title: "Guangdong Second Traditional Chinese Medicine Hospital Exchange",
             description: "The association's vice-chairman led a team of medical students to Guangdong Second Traditional Chinese Medicine Hospital to exchange views on TCM development with mainland experts and draft cooperation plans. The event promoted exchange and cooperation between Hong Kong and mainland healthcare systems, laying the foundation for future academic and clinical collaboration.",
             overviewTitle: "Event Overview",
             organizer: "Organizer: Hong Kong Youth Entrepreneurs Promotion Association",
-            coOrganizer: "Co-organizer: Greater Bay Area Healthcare Research Association",
+            coOrganizer: "Co-organizer: The Greater Bay Area Healthcare Development and Research Association",
             guests: "Key Guests: Professor Zeng Kexue, Dean Huo Jieling, Ms. Lei Xingyue",
             participants: "Participants: Mr. Alvin Chiu, Mr. Wong Wai Shing, etc.",
             contentTitle: "Event Content",
@@ -322,7 +322,7 @@ const en = {
             content2: "Special lecture: Current status and future of TCM development",
             content3: "Cooperation discussion: Hong Kong TCM Development Fund cooperation plan",
             reportTitle: "Detailed Event Report",
-            reportHeader: "Greater Bay Area Healthcare Research Association Event Report",
+            reportHeader: "The Greater Bay Area Healthcare Development and Research Association Event Report",
             reportName: "Event Name: Guangdong Second Traditional Chinese Medicine Hospital Exchange",
             reportDate: "Event Date: May 21, 2025",
             reportTime: "Event Time: 10:30 - 19:30",
@@ -330,9 +330,9 @@ const en = {
             reportWrittenDate: "Report Writing Date: May 22, 2025",
             reportSection1: "1. Participant Information",
             reportOrganizer: "Organizer: Hong Kong Youth Entrepreneurs Promotion Association",
-            reportCoOrganizer: "Co-organizer: Greater Bay Area Healthcare Research Association",
+            reportCoOrganizer: "Co-organizer: The Greater Bay Area Healthcare Development and Research Association",
             reportGuests: "Key Guests and Speakers: Professor Zeng Kexue (Chief TCM Physician, Guangdong Second Traditional Chinese Medicine Hospital), Dean Huo Jieling (Zhaoqing Zhengda Guoji Health Rehabilitation Hospital), Ms. Lei Xingyue (Graduate Student, Guangzhou University of Chinese Medicine)",
-            reportParticipants: "Participants: Mr. Alvin Chiu (Vice Chairman, Greater Bay Area Healthcare Research Association), Mr. Wong Wai Shing (Chairman, Hong Kong Youth Entrepreneurs Promotion Association)",
+            reportParticipants: "Participants: Mr. Alvin Chiu (Vice Chairman, The Greater Bay Area Healthcare Development and Research Association), Mr. Wong Wai Shing (Chairman, Hong Kong Youth Entrepreneurs Promotion Association)",
             reportSection2: "2. Event Overview",
             reportPurpose: "Event Purpose:",
             reportPurposeText: "Promote Hong Kong-mainland TCM exchange, understand mainland TCM healthcare system, and draft cooperation plans for Hong Kong TCM Development Fund participation.",
@@ -374,7 +374,7 @@ const en = {
             backButton: "Back to Events List"
         },
         mentalhealth: {
-            pageTitle: "Youth Healthcare and Social Work Mental Health Exchange Experience Day | Event Details | Greater Bay Area Healthcare Research Association",
+            pageTitle: "Youth Healthcare and Social Work Mental Health Exchange Experience Day | Event Details | The Greater Bay Area Healthcare Development and Research Association",
             date: "June 21, 2025",
             title: "Youth Healthcare and Social Work Mental Health Exchange Experience Day",
             description: "Focusing on the mental health of young healthcare workers and social workers, promoting cross-sector exchange and experience sharing, and advancing collaboration between healthcare and social services. The event invited several experts to share mental health experiences, with group discussions and interactive activities.",
@@ -384,7 +384,7 @@ const en = {
             highlight3: "Youth Healthcare and Social Work Exchange",
             photosTitle: "Event Photos",
             overviewTitle: "Event Overview",
-            organizer: "Organizer: Greater Bay Area Healthcare Research Association",
+            organizer: "Organizer: The Greater Bay Area Healthcare Development and Research Association",
             coOrganizer: "Co-organizer: Hong Kong Youth Entrepreneurs Promotion Association",
             guests: "Key Guests: Ms. Charlotte Chan, Mr. O Cheung Hon, Mr. Wong Wai Shing, etc.",
             participants: "Participants: Medical students, social workers, youth representatives, etc.",
@@ -393,7 +393,7 @@ const en = {
             content2: "Group Discussion: Cross-sector Collaboration and Experience Sharing",
             content3: "Interactive Experience: Stress Management and Mental Health Practice",
             reportTitle: "Detailed Event Report",
-            reportHeader: "Greater Bay Area Healthcare Research Association Event Report",
+            reportHeader: "The Greater Bay Area Healthcare Development and Research Association Event Report",
             reportName: "Youth Healthcare and Social Work Mental Health Exchange Experience Day",
             reportNameLabel: "Event Name: ",
             reportDate: "21/6/2025",
@@ -411,7 +411,7 @@ const en = {
             reportCoOrganizer2: "Greater Bay Area Healthcare Development and Research Association",
             reportCoOrganizerLabel: "Co-organizers: ",
             reportGuest1: "Dr. Tang Chu Hin, Vice Chairman of Youth DAB, Founding Chairman of Hong Kong Young Doctors and Healthcare Workers Association",
-            reportGuest2: "Mr. Alvin Chiu, Vice Chairman of Greater Bay Area Healthcare Research Association",
+            reportGuest2: "Mr. Alvin Chiu, Vice Chairman of The Greater Bay Area Healthcare Development and Research Association",
             reportGuestsLabel: "Key Guests and Speakers: ",
             reportParticipant1: "Healthcare workers from Hong Kong Young Doctors and Healthcare Workers Association",
             reportParticipant2: "Current social workers",
@@ -447,7 +447,7 @@ const en = {
             reportImpact3: "Students gain further understanding of their interested professions through exchange with current healthcare workers, providing valuable advice for their career planning.",
             reportResultsLabel: "4.2 Specific Achievements",
             reportResult1: "Lunch exchange discussion topics included the application and feasibility of mainland medical devices in Hong Kong, successfully triggering students to discuss healthcare development in both regions after the event.",
-            reportResult2: "As a co-organizer, this event was the first time the Greater Bay Area Healthcare Association led students for exchange, and the success of this event laid the foundation for future activities.",
+            reportResult2: "As a co-organizer, this event was the first time The Greater Bay Area Healthcare Development and Research Association led students for exchange, and the success of this event laid the foundation for future activities.",
             reportResult3: "The event successfully deepened medical students' understanding and thinking about mental illness, and removed their colored glasses about mental illness, inspiring reflection",
             reportSection5: "5. Feedback and Suggestions",
             reportFeedbackLabel: "5.1 Participant Feedback",
@@ -467,7 +467,7 @@ const en = {
     
     // Contact page
     contact: {
-        pageTitle: "Contact Us | Greater Bay Area Healthcare Research Association",
+        pageTitle: "Contact Us | The Greater Bay Area Healthcare Development and Research Association",
         title: "Contact Us",
         infoTitle: "Contact Information",
         formTitle: "Online Inquiry",
@@ -499,7 +499,7 @@ const en = {
     // Footer
     footer: {
         about: "About Association",
-        aboutDesc: "The Greater Bay Area Healthcare Research Association is dedicated to inheriting medical culture, deepening cross-regional exchanges, and promoting medical technology development, contributing to healthcare in the Greater Bay Area.",
+        aboutDesc: "The Greater Bay Area Healthcare Development and Research Association is dedicated to inheriting medical culture, deepening cross-regional exchanges, and promoting medical technology development, contributing to healthcare in the Greater Bay Area.",
         quickLinks: "Quick Links",
         contactInfo: "Contact Information",
         subscribe: "Subscribe to Newsletter",
@@ -511,7 +511,7 @@ const en = {
         email: "info@gbhra.org",
         hours: "Monday to Friday 9:00-18:00",
         address: "Room 03, 611, Telford Plaza, 16 Wang Kwong Road, Kowloon Bay, Hong Kong",
-        copyright: "© 2025 Greater Bay Area Healthcare Research Association. All rights reserved."
+        copyright: "© 2025 The Greater Bay Area Healthcare Development and Research Association. All rights reserved."
     }
 };
 
