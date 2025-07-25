@@ -80,11 +80,46 @@ const zhTW = {
             wong: { name: "黃煒陞", title: "香港青年創業家促進會主席" },
             pan: { name: "潘永祥 JP BBS", title: "資深社會領袖、公共事務顧問" },
             tang: { name: "唐楚軒醫生", title: "醫學顧問" },
-            underwood: { name: "Dr Ben Underwood", title: "英國劍橋精神科顧問醫生" },
-            hung: { name: "Ivan Hung", title: "醫學教授、學術顧問" },
-            shih: { name: "Kendrick Shih", title: "法律顧問" },
-            see: { name: "Christopher See", title: "醫學顧問" },
-            yang: { name: "Jian Yang", title: "醫學顧問" },
+            underwood: { 
+                name: "Ben Underwood 教授", 
+                englishName: "Professor Ben Underwood",
+                title: "榮譽顧問 – 精神科顧問", 
+                subtitle: "劍橋大學精神科副教授",
+                qualifications: "Windsor Research Unit 臨床主任 | NIHR RDN Eastern 認知症及神經退化性疾病負責人 | 皇家精神科醫學院老年科分會副主席 | Lucy Cavendish College Cambridge 院友",
+                badge: "榮譽顧問"
+            },
+            hung: { 
+                name: "孔繁毅教授", 
+                englishName: "Professor Hung Fan Ngai Ivan",
+                title: "高級榮譽顧問 – 傳染病學專家", 
+                subtitle: "香港大學傳染病學講座教授 | 香港大學李嘉誠醫學院傳染病科主管",
+                qualifications: "三聯療法提出者 | 新冠疫苗臨床事件評估專家委員會共同召集人（香港政府） | 全球領先的傳染病及疫苗學專家",
+                badge: "高級榮譽顧問"
+            },
+            shih: { 
+                name: "施愷廸教授", 
+                englishName: "Professor Kendrick C. Shih",
+                title: "高級榮譽顧問 – 眼科專家", 
+                subtitle: "港大醫學院助理院長（學生健康與參與） | 香港大學眼科學系臨床副教授",
+                qualifications: "瑪麗醫院名譽顧問醫生 | 葛量洪醫院名譽顧問醫生 | 眼科學系臨床實務副教授兼名譽顧問",
+                badge: "高級榮譽顧問"
+            },
+            see: {
+                name: "施由鴻博士",
+                englishName: "Dr SEE Yew Hong Christopher",
+                title: "高級榮譽顧問 – 人工智能教育發展領導",
+                subtitle: "香港大學講師 | 醫學教育博士",
+                qualifications: "劍橋大學醫學學士 | 劍橋大學文學碩士 | 愛丁堡大學教育學研究生證書 | 香港大學醫學教育博士 | 英國醫學教育學院院士 | 英國高等教育學院院士",
+                badge: "高級榮譽顧問"
+            },
+            yang: {
+                name: "楊鑒博士",
+                englishName: "Dr Jian Yang",
+                title: "榮譽顧問 – 生物醫學教育與教育科技",
+                subtitle: "港大醫學院生物醫學學院高級講師 | 解剖學教育負責人",
+                qualifications: "港大醫學院教育科技副總監 | 港大遺體捐贈計劃協調員 | 博士學位 | 醫學博士 | 北京大學醫學學士 | 高等教育學院高級研究員",
+                badge: "榮譽顧問"
+            },
             cecot: { name: "Tomasz Cecot", title: "國際醫療顧問" },
             lau: { name: "劉澤星教授", englishName: "Professor Chak-sing Lau", title: "高級榮譽顧問 – 醫學發展與學術領導", subtitle: "香港大學李嘉誠醫學院院長、暫任副校長（健康）| 風濕病學及臨床免疫學講座教授", badge: "高級榮譽顧問" },
             li: { name: "Patrick Li", title: "榮譽顧問 – 中文教育與文化傳承" }

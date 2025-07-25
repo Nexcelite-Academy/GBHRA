@@ -90,24 +90,44 @@ const en = {
                 title: "Medical Advisor"
             },
             underwood: {
-                name: "Dr Ben Underwood",
-                title: "Consultant Psychiatrist, Cambridge, UK"
+                name: "Professor Ben Underwood",
+                englishName: "Professor Ben Underwood",
+                title: "Honorary Advisor - Psychiatric Consultant",
+                subtitle: "Associate Professor, Department of Psychiatry, University of Cambridge",
+                qualifications: "Clinical Director, Windsor Research Unit | Dementia and Neurodegeneration Lead for NIHR RDN Eastern | Vice Chair, Old Age Faculty, RCPsych | Bye Fellow, Lucy Cavendish College Cambridge",
+                badge: "Honorary Advisor"
             },
             hung: {
-                name: "Ivan Hung",
-                title: "Medical Professor, Academic Advisor"
+                name: "Professor Hung Fan Ngai Ivan",
+                chineseName: "孔繁毅教授",
+                title: "Senior Honorary Advisor - Infectious Disease Expert", 
+                subtitle: "Chair Professor of Infectious Diseases, HKU | Head, Division of Infectious Diseases, Li Ka Shing Faculty of Medicine",
+                qualifications: "Pioneer of Triple Combination Therapy | Co-convenor, Clinical Events Assessment Following Immunisation Expert Committee (HKSAR Government) | Global Leading Expert in Infectious Diseases & Vaccines",
+                badge: "Senior Honorary Advisor"
             },
             shih: {
-                name: "Kendrick Shih",
-                title: "Legal Advisor"
+                name: "Professor Kendrick C. Shih",
+                chineseName: "施愷廸教授",
+                title: "Senior Honorary Advisor - Ophthalmology Expert", 
+                subtitle: "Assistant Dean (Student Wellness & Engagement), HKU Faculty of Medicine | Clinical Associate Professor, Department of Ophthalmology, HKU",
+                qualifications: "Honorary Consultant (Ophthalmology), Queen Mary Hospital | Honorary Consultant (Ophthalmology), Grantham Hospital | Clinical Associate Professor of Practice and Honorary Consultant at the Department of Ophthalmology",
+                badge: "Senior Honorary Advisor"
             },
             see: {
-                name: "Christopher See",
-                title: "Medical Advisor"
+                name: "Dr SEE Yew Hong Christopher",
+                chineseName: "施由鴻博士",
+                title: "Senior Honorary Advisor - Artificial Intelligence Education Development Leadership",
+                subtitle: "Lecturer, The University of Hong Kong | PhD in Medical Education",
+                qualifications: "MB BChir (Cambridge) | MA (Cambridge) | PGCE (Edinburgh) | PhD Medical Education (HKU) | FAcadMEd (UK) | FHEA (UK)",
+                badge: "Senior Honorary Advisor"
             },
             yang: {
-                name: "Jian Yang",
-                title: "Medical Advisor"
+                name: "Dr Jian Yang",
+                chineseName: "楊鑒博士",
+                title: "Honorary Advisor - Biomedical Education & Educational Technology",
+                subtitle: "Senior Lecturer, School of Biomedical Sciences, HKU Faculty of Medicine | Lead in Anatomy Education",
+                qualifications: "Deputy Director of EdTech HKUMed | Coordinator of HKU Body Donation Programme | Doctor of Philosophy | Doctor of Medicine | Bachelor of Medicine (Peking University) | Senior Fellow of Higher Education Academy",
+                badge: "Honorary Advisor"
             },
             cecot: {
                 name: "Tomasz Cecot",

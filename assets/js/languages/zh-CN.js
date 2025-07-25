@@ -90,24 +90,44 @@ const zhCN = {
                 title: "医学顾问"
             },
             underwood: {
-                name: "Dr Ben Underwood",
-                title: "英国剑桥精神科顾问医生"
+                name: "Ben Underwood 教授",
+                englishName: "Professor Ben Underwood", 
+                title: "荣誉顾问 – 精神科顾问",
+                subtitle: "剑桥大学精神科副教授",
+                qualifications: "Windsor Research Unit 临床主任 | NIHR RDN Eastern 认知症及神经退化性疾病负责人 | 皇家精神科医学院老年科分会副主席 | Lucy Cavendish College Cambridge 院友",
+                badge: "荣誉顾问"
             },
             hung: {
-                name: "Ivan Hung",
-                title: "医学教授、学术顾问"
+                name: "孔繁毅教授",
+                englishName: "Professor Hung Fan Ngai Ivan", 
+                title: "高级荣誉顾问 – 传染病学专家",
+                subtitle: "香港大学传染病学讲座教授 | 香港大学李嘉诚医学院传染病科主管",
+                qualifications: "三联疗法提出者 | 新冠疫苗临床事件评估专家委员会共同召集人（香港政府） | 全球领先的传染病及疫苗学专家",
+                badge: "高级荣誉顾问"
             },
             shih: {
-                name: "Kendrick Shih",
-                title: "法律顾问"
+                name: "施恺廸教授",
+                englishName: "Professor Kendrick C. Shih", 
+                title: "高级荣誉顾问 – 眼科专家",
+                subtitle: "港大医学院助理院长（学生健康与参与） | 香港大学眼科学系临床副教授",
+                qualifications: "玛丽医院名誉顾问医生 | 葛量洪医院名誉顾问医生 | 眼科学系临床实务副教授兼名誉顾问",
+                badge: "高级荣誉顾问"
             },
             see: {
-                name: "Christopher See",
-                title: "医学顾问"
+                name: "施由鸿博士",
+                englishName: "Dr SEE Yew Hong Christopher",
+                title: "高级荣誉顾问 – 人工智能教育发展领导",
+                subtitle: "香港大学讲师 | 医学教育博士",
+                qualifications: "剑桥大学医学学士 | 剑桥大学文学硕士 | 爱丁堡大学教育学研究生证书 | 香港大学医学教育博士 | 英国医学教育学院院士 | 英国高等教育学院院士",
+                badge: "高级荣誉顾问"
             },
             yang: {
-                name: "Jian Yang",
-                title: "医学顾问"
+                name: "杨鉴博士",
+                englishName: "Dr Jian Yang",
+                title: "荣誉顾问 – 生物医学教育与教育科技",
+                subtitle: "港大医学院生物医学学院高级讲师 | 解剖学教育负责人",
+                qualifications: "港大医学院教育科技副总监 | 港大遗体捐赠计划协调员 | 博士学位 | 医学博士 | 北京大学医学学士 | 高等教育学院高级研究员",
+                badge: "荣誉顾问"
             },
             cecot: {
                 name: "Tomasz Cecot",
