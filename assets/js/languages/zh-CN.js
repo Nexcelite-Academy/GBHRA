@@ -133,6 +133,10 @@ const zhCN = {
                 name: "Tomasz Cecot",
                 title: "国际医疗顾问"
             },
+            royce: {
+                name: "Royce",
+                title: "技术顾问 – 人工智能与模型训练"
+            },
             lau: {
                 name: "刘泽星教授",
                 englishName: "Professor Chak-sing Lau",

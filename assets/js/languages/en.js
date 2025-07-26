@@ -133,6 +133,10 @@ const en = {
                 name: "Tomasz Cecot",
                 title: "International Healthcare Advisor"
             },
+            royce: {
+                name: "Royce",
+                title: "Technical Advisor – Artificial Intelligence & Model Training"
+            },
             lau: {
                 name: "Professor Chak-sing Lau",
                 chineseName: "劉澤星教授",
