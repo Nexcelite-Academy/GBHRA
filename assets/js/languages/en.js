@@ -142,7 +142,7 @@ const en = {
             },
             li: {
                 name: "Patrick Li",
-                chineseName: "李璟佳 先生",
+                chineseName: "李璟佳先生",
                 englishName: "Mr Patrick Li",
                 title: "Honorary Advisor - Chinese Education & Cultural Heritage",
                 subtitle: "Bachelor of Arts in Chinese, HKU | Senior Chinese Language Education Expert",
