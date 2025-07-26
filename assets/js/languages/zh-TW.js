@@ -126,7 +126,7 @@ const zhTW = {
                 name: "周英教授",
                 englishName: "Dr. ZHOU Ying",
                 title: "榮譽顧問 – 鈣鈦礦光電探測技術",
-                subtitle: "華中科技大學光學與電子信息學院教授 | 國家級青年人才項入選者",
+                subtitle: "華中科技大學光學與電子信息學院教授 | 國家級青年人才項目入選者",
                 qualifications: "華中科技大學博士（2018）| 美國北卡羅來納大學教堂山分校博士後研究員（2019-2023）| Nature Photonics、Joule、Science Advances 等頂級期刊第一作者 | 鈣鈦礦光子計數探測器專家 | 醫療影像技術革新推動者",
                 badge: "榮譽顧問"
             },

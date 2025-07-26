@@ -141,7 +141,7 @@ const zhCN = {
                 name: "周英教授",
                 englishName: "Dr. ZHOU Ying",
                 title: "荣誉顾问 – 钙钛矿光电探测技术",
-                subtitle: "华中科技大学光学与电子信息学院教授 | 国家级青年人才项入选者",
+                subtitle: "华中科技大学光学与电子信息学院教授 | 国家级青年人才项目入选者",
                 qualifications: "华中科技大学博士（2018）| 美国北卡罗来纳大学教堂山分校博士后研究员（2019-2023）| Nature Photonics、Joule、Science Advances 等顶级期刊第一作者 | 钙钛矿光子计数探测器专家 | 医疗影像技术革新推动者",
                 badge: "荣誉顾问"
             },
