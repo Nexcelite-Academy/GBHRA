@@ -122,6 +122,14 @@ const zhTW = {
             },
             cecot: { name: "Tomasz Cecot", title: "國際醫療顧問" },
             royce: { name: "Royce", title: "技術顧問 – 人工智能與模型訓練" },
+            zhou: {
+                name: "周英教授",
+                englishName: "Dr. ZHOU Ying",
+                title: "榮譽顧問 – 鈣鈦礦光電探測技術",
+                subtitle: "華中科技大學光學與電子信息學院教授 | 國家級青年人才項入選者",
+                qualifications: "華中科技大學博士（2018）| 美國北卡羅來納大學教堂山分校博士後研究員（2019-2023）| Nature Photonics、Joule、Science Advances 等頂級期刊第一作者 | 鈣鈦礦光子計數探測器專家 | 醫療影像技術革新推動者",
+                badge: "榮譽顧問"
+            },
             lau: { name: "劉澤星教授", englishName: "Professor Chak-sing Lau", title: "高級榮譽顧問 – 醫學發展與學術領導", subtitle: "香港大學李嘉誠醫學院院長、暫任副校長（健康）| 風濕病學及臨床免疫學講座教授", badge: "高級榮譽顧問" },
             li: { 
                 name: "李璟佳先生", 

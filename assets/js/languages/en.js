@@ -137,6 +137,15 @@ const en = {
                 name: "Royce",
                 title: "Technical Advisor – Artificial Intelligence & Model Training"
             },
+            zhou: {
+                name: "Professor ZHOU Ying",
+                chineseName: "周英教授",
+                englishName: "Dr. ZHOU Ying",
+                title: "Honorary Advisor – Perovskite Optoelectronic Detection Technology",
+                subtitle: "Professor, School of Optical and Electronic Information, Huazhong University of Science and Technology | National Young Talent Program Recipient",
+                qualifications: "PhD, Huazhong University of Science and Technology (2018) | Postdoctoral Researcher, University of North Carolina at Chapel Hill (2019-2023) | First author publications in Nature Photonics, Joule, Science Advances and other top-tier journals | Perovskite photon counting detector expert | Medical imaging technology innovation pioneer",
+                badge: "Honorary Advisor"
+            },
             lau: {
                 name: "Professor Chak-sing Lau",
                 chineseName: "劉澤星教授",
