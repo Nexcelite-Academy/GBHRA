@@ -141,11 +141,11 @@ const zhCN = {
                 badge: "高级荣誉顾问"
             },
             li: {
-                name: "Patrick Li",
+                name: "李璟佳 先生",
                 englishName: "Mr Patrick Li",
                 title: "荣誉顾问 – 中文教育与文化传承",
                 subtitle: "香港大学中文系学士｜资深中文教育专家",
-                qualifications: "十二年教学经验｜HKDSE中文科应试策略专家｜文化传承教育推广者｜累积培育逾百名学生｜多名学生获5**级佳绩｜创新分层教学模式开发者｜中文教育课程设计专家",
+                qualifications: "二十年教学经验｜HKDSE中文科应试策略专家｜文化传承教育推广者｜累积培育逾百名学生｜多名学生获5**级佳绩｜创新分层教学模式开发者｜中文教育课程设计专家",
                 badge: "荣誉顾问"
             }
         },

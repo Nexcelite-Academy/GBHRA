@@ -123,11 +123,11 @@ const zhTW = {
             cecot: { name: "Tomasz Cecot", title: "國際醫療顧問" },
             lau: { name: "劉澤星教授", englishName: "Professor Chak-sing Lau", title: "高級榮譽顧問 – 醫學發展與學術領導", subtitle: "香港大學李嘉誠醫學院院長、暫任副校長（健康）| 風濕病學及臨床免疫學講座教授", badge: "高級榮譽顧問" },
             li: { 
-                name: "Patrick Li", 
+                name: "李璟佳 先生", 
                 englishName: "Mr Patrick Li",
                 title: "榮譽顧問 – 中文教育與文化傳承", 
                 subtitle: "香港大學中文系學士｜資深中文教育專家",
-                qualifications: "十二年教學經驗｜HKDSE中文科應試策略專家｜文化傳承教育推廣者｜累積培育逾百名學生｜多名學生獲5**級佳績｜創新分層教學模式開發者｜中文教育課程設計專家",
+                qualifications: "二十年教學經驗｜HKDSE中文科應試策略專家｜文化傳承教育推廣者｜累積培育逾百名學生｜多名學生獲5**級佳績｜創新分層教學模式開發者｜中文教育課程設計專家",
                 badge: "榮譽顧問" 
             }
         },

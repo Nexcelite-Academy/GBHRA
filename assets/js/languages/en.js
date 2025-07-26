@@ -142,10 +142,11 @@ const en = {
             },
             li: {
                 name: "Patrick Li",
+                chineseName: "李璟佳 先生",
                 englishName: "Mr Patrick Li",
                 title: "Honorary Advisor - Chinese Education & Cultural Heritage",
                 subtitle: "Bachelor of Arts in Chinese, HKU | Senior Chinese Language Education Expert",
-                qualifications: "12 Years Teaching Experience | HKDSE Chinese Language Examination Strategy Expert | Cultural Heritage Education Advocate | Over 100 Students Mentored | Multiple Students Achieved 5** Grades | Innovative Tiered Teaching Model Developer | Chinese Language Curriculum Design Specialist",
+                qualifications: "20 Years Teaching Experience | HKDSE Chinese Language Examination Strategy Expert | Cultural Heritage Education Advocate | Over 100 Students Mentored | Multiple Students Achieved 5** Grades | Innovative Tiered Teaching Model Developer | Chinese Language Curriculum Design Specialist",
                 badge: "Honorary Advisor"
             }
         },
