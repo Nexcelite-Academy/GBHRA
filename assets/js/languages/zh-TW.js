@@ -122,7 +122,7 @@ const zhTW = {
             },
             cecot: { name: "Tomasz Cecot", title: "國際醫療顧問" },
             royce: {
-                name: "Royce Lam",
+                name: "林渝程先生 (Royce Lam)",
                 englishName: "Mr Royce Lam",
                 title: "技術顧問 – 人工智能與模型訓練",
                 subtitle: "香港Arrow Electronics高級商業智能工程師 | 密西根大學應用數據科學碩士及MBA",
