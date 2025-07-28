@@ -120,7 +120,6 @@ const zhTW = {
                 qualifications: "港大醫學院教育科技副總監 | 港大遺體捐贈計劃協調員 | 博士學位 | 醫學博士 | 北京大學醫學學士 | 高等教育學院高級研究員",
                 badge: "榮譽顧問"
             },
-            cecot: { name: "Tomasz Cecot", title: "國際醫療顧問" },
             royce: {
                 name: "林渝程先生",
                 englishName: "Mr Royce Lam",

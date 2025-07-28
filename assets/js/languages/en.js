@@ -129,10 +129,6 @@ const en = {
                 qualifications: "Deputy Director of EdTech HKUMed | Coordinator of HKU Body Donation Programme | Doctor of Philosophy | Doctor of Medicine | Bachelor of Medicine (Peking University) | Senior Fellow of Higher Education Academy",
                 badge: "Honorary Advisor"
             },
-            cecot: {
-                name: "Tomasz Cecot",
-                title: "International Healthcare Advisor"
-            },
             royce: {
                 name: "Royce Lam",
                 chineseName: "林渝程先生",

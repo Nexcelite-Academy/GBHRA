@@ -129,10 +129,6 @@ const zhCN = {
                 qualifications: "港大医学院教育科技副总监 | 港大遗体捐赠计划协调员 | 博士学位 | 医学博士 | 北京大学医学学士 | 高等教育学院高级研究员",
                 badge: "荣誉顾问"
             },
-            cecot: {
-                name: "Tomasz Cecot",
-                title: "国际医疗顾问"
-            },
             royce: {
                 name: "林渝程先生",
                 englishName: "Mr Royce Lam",
