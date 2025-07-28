@@ -329,6 +329,12 @@ const en = {
                 title: "Youth Healthcare and Social Work Mental Health Exchange Experience Day",
                 desc: "Focusing on mental health of young healthcare workers and social workers, promoting cross-border exchange and experience sharing, and advancing collaboration between healthcare and social services.",
                 detailsBtn: "Event Details"
+            },
+            2: {
+                date: "July 3-5, 2025",
+                title: "Yiran Youdao TCM Hospital Hong Kong-Xinjiang Exchange",
+                desc: "Association representatives traveled to Yiran Youdao TCM Hospital in Yining, Xinjiang to promote Hong Kong-Xinjiang TCM exchange, learn Nanpai Gao Mo Therapy, and deepen bilateral medical cooperation and cultural integration.",
+                detailsBtn: "Event Details"
             }
         }
     },
@@ -490,6 +496,42 @@ const en = {
             reportContact: "Contact: ",
             contactNumber: "60256289",
             backButton: "Back to Events List"
+        },
+        xinjiang: {
+            pageTitle: "Yiran Youdao TCM Hospital Hong Kong-Xinjiang Exchange | Event Details | The Greater Bay Area Healthcare Development and Research Association",
+            date: "July 3-5, 2025",
+            title: "Yiran Youdao TCM Hospital Hong Kong-Xinjiang Exchange",
+            description: "This event aims to promote Traditional Chinese Medicine exchange between Hong Kong and Yining, Xinjiang, foster information and technology sharing between the two regions, build cooperation bridges between The Greater Bay Area Healthcare Development and Research Association and Yiran Youdao TCM Hospital, and deepen TCM cultural exchange. Through visits, learning Nanpai Gao Mo Therapy, and cultural experiences, the event enhanced Hong Kong-Xinjiang ethnic unity and medical cooperation.",
+            overviewTitle: "Event Overview",
+            organizer: "Organizer: Yiran Youdao Traditional Chinese Medicine Hospital",
+            coOrganizer: "Co-organizer: The Greater Bay Area Healthcare Development and Research Association",
+            duration: "Event Duration: 10:00 - 22:00 (3 Days 2 Nights)",
+            location: "Event Location: Yiran Youdao Traditional Chinese Medicine Hospital, Yining, Xinjiang",
+            guests: "Key Guests: Mr. Zhang Peng (Director), Professor Zeng Kexue, Mr. Zhao Nuoxian (Vice Chairman), Mr. Shi Renxin (Chairman)",
+            contentTitle: "Event Content",
+            content1: "Visit to Yiran Youdao TCM Hospital and exchange with local medical professionals",
+            content2: "Learning Nanpai Gao Mo Therapy - Intangible Cultural Heritage Technique Transmission",
+            content3: "Hong Kong-Xinjiang TCM Exchange Sharing - Medical Environment and Cooperation Discussion",
+            content4: "Yizhao Highway Visit and Cultural Exchange - Experience Xinjiang's Multi-ethnic Culture",
+            content5: "Discussion on Integrated TCM-Western Medicine Clinical Trials and TCM Patent Medicine Commercialization",
+            scheduleTitle: "Event Schedule",
+            day1: "Day 1 (July 3)",
+            "day1.item1": "Arrival at Yining Airport",
+            "day1.item2": "Hospital Facility Tour",
+            "day1.item3": "Hong Kong-Xinjiang Exchange Conference",
+            "day1.item4": "Taste Kazakh Cuisine",
+            day2: "Day 2 (July 4)",
+            "day2.item1": "Yizhao Highway Visit",
+            "day2.item2": "Experience Xinjiang Natural Scenery",
+            "day2.item3": "Ethnic Cultural Exchange",
+            day3: "Day 3 (July 5)",
+            "day3.item1": "Summary of Exchange Results",
+            "day3.item2": "Return Journey to Yining City",
+            "day3.item3": "Successful Event Conclusion",
+            reportTitle: "Detailed Event Report",
+            reportContent: "The Greater Bay Area Healthcare Development and Research Association Event Report...",
+            backBtn: "Back to Events List",
+            publishDate: "Publication Date: July 6, 2025"
         }
     },
     
