@@ -134,8 +134,12 @@ const zhCN = {
                 title: "国际医疗顾问"
             },
             royce: {
-                name: "Royce",
-                title: "技术顾问 – 人工智能与模型训练"
+                name: "Royce Lam",
+                englishName: "Mr Royce Lam",
+                title: "技术顾问 – 人工智能与模型训练",
+                subtitle: "香港Arrow Electronics高级商业智能工程师 | 密西根大学应用数据科学硕士及MBA",
+                qualifications: "斯坦福大学医疗AI诊断认证 | 企业级Power BI解决方案实施专家 | NLTK机器学习模型开发 | 跨国C-Suite高管AI策略咨询 | 英国特许仲裁员协会会员(MCIARB) | AI伦理决策专家",
+                badge: "技术顾问"
             },
             zhou: {
                 name: "周英教授",

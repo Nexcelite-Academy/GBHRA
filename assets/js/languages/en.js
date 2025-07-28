@@ -134,8 +134,13 @@ const en = {
                 title: "International Healthcare Advisor"
             },
             royce: {
-                name: "Royce",
-                title: "Technical Advisor – Artificial Intelligence & Model Training"
+                name: "Royce Lam",
+                chineseName: "Royce Lam",
+                englishName: "Mr Royce Lam",
+                title: "Technical Advisor – Artificial Intelligence & Model Training",
+                subtitle: "Senior Business Intelligence Engineer at Arrow Electronics Hong Kong | Master's in Applied Data Science & MBA from University of Michigan",
+                qualifications: "Stanford University Medical AI Diagnostics Certification | Enterprise Power BI Solutions Implementation Expert | NLTK Machine Learning Model Development | C-Suite AI Strategy Consulting | Member of Chartered Institute of Arbitrators UK (MCIARB) | AI Ethics Decision-Making Expert",
+                badge: "Technical Advisor"
             },
             zhou: {
                 name: "Professor ZHOU Ying",

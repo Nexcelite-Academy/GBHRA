@@ -121,7 +121,14 @@ const zhTW = {
                 badge: "榮譽顧問"
             },
             cecot: { name: "Tomasz Cecot", title: "國際醫療顧問" },
-            royce: { name: "Royce", title: "技術顧問 – 人工智能與模型訓練" },
+            royce: {
+                name: "Royce Lam",
+                englishName: "Mr Royce Lam",
+                title: "技術顧問 – 人工智能與模型訓練",
+                subtitle: "香港Arrow Electronics高級商業智能工程師 | 密西根大學應用數據科學碩士及MBA",
+                qualifications: "史丹佛大學醫療AI診斷認證 | 企業級Power BI解決方案實施專家 | NLTK機器學習模型開發 | 跨國C-Suite高管AI策略諮詢 | 英國特許仲裁員協會會員(MCIARB) | AI倫理決策專家",
+                badge: "技術顧問"
+            },
             zhou: {
                 name: "周英教授",
                 englishName: "Dr. ZHOU Ying",
