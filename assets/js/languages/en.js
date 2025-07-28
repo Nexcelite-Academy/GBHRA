@@ -515,19 +515,25 @@ const en = {
             content4: "Yizhao Highway Visit and Cultural Exchange - Experience Xinjiang's Multi-ethnic Culture",
             content5: "Discussion on Integrated TCM-Western Medicine Clinical Trials and TCM Patent Medicine Commercialization",
             scheduleTitle: "Event Schedule",
-            day1: "Day 1 (July 3)",
-            "day1.item1": "Arrival at Yining Airport",
-            "day1.item2": "Hospital Facility Tour",
-            "day1.item3": "Hong Kong-Xinjiang Exchange Conference",
-            "day1.item4": "Taste Kazakh Cuisine",
-            day2: "Day 2 (July 4)",
-            "day2.item1": "Yizhao Highway Visit",
-            "day2.item2": "Experience Xinjiang Natural Scenery",
-            "day2.item3": "Ethnic Cultural Exchange",
-            day3: "Day 3 (July 5)",
-            "day3.item1": "Summary of Exchange Results",
-            "day3.item2": "Return Journey to Yining City",
-            "day3.item3": "Successful Event Conclusion",
+            day1: {
+                title: "Day 1 (July 3)",
+                item1: "Arrival at Yining Airport",
+                item2: "Hospital Facility Tour",
+                item3: "Hong Kong-Xinjiang Exchange Conference",
+                item4: "Taste Kazakh Cuisine"
+            },
+            day2: {
+                title: "Day 2 (July 4)",
+                item1: "Yizhao Highway Visit",
+                item2: "Experience Xinjiang Natural Scenery",
+                item3: "Ethnic Cultural Exchange"
+            },
+            day3: {
+                title: "Day 3 (July 5)",
+                item1: "Summary of Exchange Results",
+                item2: "Return Journey to Yining City",
+                item3: "Successful Event Conclusion"
+            },
             photoGalleryTitle: "Event Photos",
             photo2: "Nanpai Gao Mo Therapy Lecture",
             photo3: "Hospital Internal Facility Tour",
