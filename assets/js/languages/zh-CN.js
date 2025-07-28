@@ -134,7 +134,7 @@ const zhCN = {
                 title: "国际医疗顾问"
             },
             royce: {
-                name: "林渝程先生 (Royce Lam)",
+                name: "林渝程先生",
                 englishName: "Mr Royce Lam",
                 title: "技术顾问 – 人工智能与模型训练",
                 subtitle: "香港Arrow Electronics高级商业智能工程师 | 密西根大学应用数据科学硕士及MBA",

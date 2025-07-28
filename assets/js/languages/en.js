@@ -135,7 +135,7 @@ const en = {
             },
             royce: {
                 name: "Royce Lam",
-                chineseName: "林渝程先生 (Royce Lam)",
+                chineseName: "林渝程先生",
                 englishName: "Mr Royce Lam",
                 title: "Technical Advisor – Artificial Intelligence & Model Training",
                 subtitle: "Senior Business Intelligence Engineer at Arrow Electronics Hong Kong | Master's in Applied Data Science & MBA from University of Michigan",
