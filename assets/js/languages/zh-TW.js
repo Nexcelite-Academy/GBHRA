@@ -130,6 +130,14 @@ const zhTW = {
                 qualifications: "華中科技大學博士（2018）| 美國北卡羅來納大學教堂山分校博士後研究員（2019-2023）| Nature Photonics、Joule、Science Advances 等頂級期刊第一作者 | 鈣鈦礦光子計數探測器專家 | 醫療影像技術革新推動者",
                 badge: "榮譽顧問"
             },
+            fan: {
+                name: "FAN Shin E 先生",
+                englishName: "Mr FAN Shin E",
+                title: "榮譽顧問 – 半導體技術轉移與應用",
+                subtitle: "PeroRasion聯合創始人 股東 | SungKyunKwan大學碩士",
+                qualifications: "技術轉移專家 | 半導體光電探測器開發專家 | 新型半導體技術應用推廣者 | 創新科技商業化領導者",
+                badge: "榮譽顧問"
+            },
             lau: { name: "劉澤星教授", englishName: "Professor Chak-sing Lau", title: "高級榮譽顧問 – 醫學發展與學術領導", subtitle: "香港大學李嘉誠醫學院院長、暫任副校長（健康）| 風濕病學及臨床免疫學講座教授", badge: "高級榮譽顧問" },
             li: { 
                 name: "李璟佳先生", 

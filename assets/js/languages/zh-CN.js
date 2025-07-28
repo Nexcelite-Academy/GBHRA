@@ -145,6 +145,14 @@ const zhCN = {
                 qualifications: "华中科技大学博士（2018）| 美国北卡罗来纳大学教堂山分校博士后研究员（2019-2023）| Nature Photonics、Joule、Science Advances 等顶级期刊第一作者 | 钙钛矿光子计数探测器专家 | 医疗影像技术革新推动者",
                 badge: "荣誉顾问"
             },
+            fan: {
+                name: "FAN Shin E 先生",
+                englishName: "Mr FAN Shin E",
+                title: "荣誉顾问 – 半导体技术转移与应用",
+                subtitle: "PeroRasion联合创始人 股东 | SungKyunKwan大学硕士",
+                qualifications: "技术转移专家 | 半导体光电探测器开发专家 | 新型半导体技术应用推广者 | 创新科技商业化领导者",
+                badge: "荣誉顾问"
+            },
             lau: {
                 name: "刘泽星教授",
                 englishName: "Professor Chak-sing Lau",

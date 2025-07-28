@@ -146,6 +146,15 @@ const en = {
                 qualifications: "PhD, Huazhong University of Science and Technology (2018) | Postdoctoral Researcher, University of North Carolina at Chapel Hill (2019-2023) | First author publications in Nature Photonics, Joule, Science Advances and other top-tier journals | Perovskite photon counting detector expert | Medical imaging technology innovation pioneer",
                 badge: "Honorary Advisor"
             },
+            fan: {
+                name: "Mr FAN Shin E",
+                chineseName: "FAN Shin E 先生",
+                englishName: "Mr FAN Shin E",
+                title: "Honorary Advisor – Semiconductor Technology Transfer & Applications",
+                subtitle: "Co-founder & Shareholder of PeroRasion | Master's from SungKyunKwan University",
+                qualifications: "Technology transfer expert | Semiconductor optoelectronic detector development specialist | Novel semiconductor technology application promoter | Innovation technology commercialization leader",
+                badge: "Honorary Advisor"
+            },
             lau: {
                 name: "Professor Chak-sing Lau",
                 chineseName: "劉澤星教授",
