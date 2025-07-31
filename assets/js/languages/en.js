@@ -138,6 +138,15 @@ const en = {
                 qualifications: "Stanford University Medical AI Diagnostics Certification | Enterprise Power BI Solutions Implementation Expert | NLTK Machine Learning Model Development | C-Suite AI Strategy Consulting | Member of Chartered Institute of Arbitrators UK (MCIARB) | AI Ethics Decision-Making Expert",
                 badge: "Technical Advisor"
             },
+            laurie: {
+                name: "Laurie Zhang",
+                chineseName: "鄭苙文",
+                englishName: "Ms Laurie Zhang",
+                title: "Technical Advisor – Creative & Art Director",
+                subtitle: "Founder <a href='https://www.instagram.com/creative_6ix?igsh=dzU5bzcxemF1N3oy' target='_blank' style='color:#1e3a8a;text-decoration:none;'>@creative_6ix</a><br>Former Intern at Zaha Hadid Architects",
+                qualifications: "Graphic Designer | Creative Director | Architectural Design Experience | Expert in Art Creation & Technology Integration",
+                badge: "Technical Advisor"
+            },
             zhou: {
                 name: "Professor ZHOU Ying",
                 chineseName: "周英教授",

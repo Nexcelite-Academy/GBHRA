@@ -137,6 +137,14 @@ const zhCN = {
                 qualifications: "斯坦福大学医疗AI诊断认证 | 企业级Power BI解决方案实施专家 | NLTK机器学习模型开发 | 跨国C-Suite高管AI策略咨询 | 英国特许仲裁员协会会员(MCIARB) | AI伦理决策专家",
                 badge: "技术顾问"
             },
+            laurie: {
+                name: "郑苙文",
+                englishName: "Ms Laurie Zhang",
+                title: "技术顾问 – 创意及艺术总监",
+                subtitle: "Founder <a href='https://www.instagram.com/creative_6ix?igsh=dzU5bzcxemF1N3oy' target='_blank' style='color:#1e3a8a;text-decoration:none;'>@creative_6ix</a><br>Zaha Hadid Architects前实习生",
+                qualifications: "平面设计师 | 创意总监 | 建筑设计领域从业经验 | 艺术创作与技术结合专家",
+                badge: "技术顾问"
+            },
             zhou: {
                 name: "周英教授",
                 englishName: "Dr. ZHOU Ying",

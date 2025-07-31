@@ -93,7 +93,12 @@ class LanguageManager {
             const key = element.getAttribute('data-i18n');
             const text = this.getText(key);
             if (text && text !== key) {
-                element.textContent = text;
+                // 檢查是否有 data-i18n-html 屬性，如果有則使用 innerHTML
+                if (element.hasAttribute('data-i18n-html')) {
+                    element.innerHTML = text;
+                } else {
+                    element.textContent = text;
+                }
             }
         });
 

@@ -128,6 +128,14 @@ const zhTW = {
                 qualifications: "史丹佛大學醫療AI診斷認證 | 企業級Power BI解決方案實施專家 | NLTK機器學習模型開發 | 跨國C-Suite高管AI策略諮詢 | 英國特許仲裁員協會會員(MCIARB) | AI倫理決策專家",
                 badge: "技術顧問"
             },
+            laurie: {
+                name: "鄭苙文",
+                englishName: "Ms Laurie Zhang",
+                title: "技術顧問 – 創意及藝術總監",
+                subtitle: "Founder <a href='https://www.instagram.com/creative_6ix?igsh=dzU5bzcxemF1N3oy' target='_blank' style='color:#1e3a8a;text-decoration:none;'>@creative_6ix</a><br>Zaha Hadid Architects前實習生",
+                qualifications: "平面設計師 | 創意總監 | 建築設計領域從業經驗 | 藝術創作與技術結合專家",
+                badge: "技術顧問"
+            },
             zhou: {
                 name: "周英教授",
                 englishName: "Dr. ZHOU Ying",
