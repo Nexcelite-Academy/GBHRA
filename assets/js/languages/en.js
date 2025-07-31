@@ -139,9 +139,9 @@ const en = {
                 badge: "Technical Advisor"
             },
             laurie: {
-                name: "Laurie Zhang",
-                chineseName: "鄭苙文",
-                englishName: "Ms Laurie Zhang",
+                name: "Laurie Chang",
+                chineseName: "鄭苙文小姐",
+                englishName: "Ms Laurie Chang",
                 title: "Technical Advisor – Creative & Art Director",
                 subtitle: "Founder <a href='https://www.instagram.com/creative_6ix?igsh=dzU5bzcxemF1N3oy' target='_blank' style='color:#1e3a8a;text-decoration:none;'>@creative_6ix</a><br>Former Intern at Zaha Hadid Architects",
                 qualifications: "Graphic Designer | Creative Director | Architectural Design Experience | Expert in Art Creation & Technology Integration",

@@ -138,8 +138,8 @@ const zhCN = {
                 badge: "技术顾问"
             },
             laurie: {
-                name: "郑苙文",
-                englishName: "Ms Laurie Zhang",
+                name: "郑苙文小姐",
+                englishName: "Ms Laurie Chang",
                 title: "技术顾问 – 创意及艺术总监",
                 subtitle: "Founder <a href='https://www.instagram.com/creative_6ix?igsh=dzU5bzcxemF1N3oy' target='_blank' style='color:#1e3a8a;text-decoration:none;'>@creative_6ix</a><br>Zaha Hadid Architects前实习生",
                 qualifications: "平面设计师 | 创意总监 | 建筑设计领域从业经验 | 艺术创作与技术结合专家",

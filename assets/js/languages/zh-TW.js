@@ -129,8 +129,8 @@ const zhTW = {
                 badge: "技術顧問"
             },
             laurie: {
-                name: "鄭苙文",
-                englishName: "Ms Laurie Zhang",
+                name: "鄭苙文小姐",
+                englishName: "Ms Laurie Chang",
                 title: "技術顧問 – 創意及藝術總監",
                 subtitle: "Founder <a href='https://www.instagram.com/creative_6ix?igsh=dzU5bzcxemF1N3oy' target='_blank' style='color:#1e3a8a;text-decoration:none;'>@creative_6ix</a><br>Zaha Hadid Architects前實習生",
                 qualifications: "平面設計師 | 創意總監 | 建築設計領域從業經驗 | 藝術創作與技術結合專家",
