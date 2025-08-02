@@ -1,0 +1,16 @@
+warning: in the working copy of 'assets/js/languages/en.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/js/languages/zh-CN.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/js/languages/zh-TW.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'pages/about.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'pages/event-gd2hospital.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'pages/event-mentalhealth.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'pages/events.html', LF will be replaced by CRLF the next time Git touches it
+assets/js/languages/en.js
+assets/js/languages/zh-CN.js
+assets/js/languages/zh-TW.js
+index.html
+pages/about.html
+pages/event-gd2hospital.html
+pages/event-mentalhealth.html
+pages/event-xinjiang.html
+pages/events.html

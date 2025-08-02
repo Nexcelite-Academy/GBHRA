@@ -29,7 +29,7 @@ const zhCN = {
         latestNews: "最新动态",
         latestNewsSubtitle: "协会最新活动与交流成果",
         gd2hospital: "广东省第二中医院交流会",
-        gd2hospitalDesc: "协会副主席带领医学生团队赴广东省第二中医院，与内地专家交流中医药发展，并草拟合作计划。",
+        gd2hospitalDesc: "协会主席带领医学生团队赴广东省第二中医院，与内地专家交流中医药发展，并草拟合作计划。",
         mentalHealth: "青年医护社工精神健康交流体验日",
         mentalHealthDesc: "聚焦青年医护与社工精神健康，促进跨界交流与经验分享，推动医疗与社会服务协作。",
         eventDetails: "活动详情",
@@ -60,13 +60,13 @@ const zhCN = {
         charlotte: {
             name: "陈湘珞女士",
             englishName: "Ms. CHAN Sheung Lok Charlotte",
-            title: "主席及联席创办人",
+            title: "副主席及联席创办人",
             desc: "具备卓越专业素养与沟通能力，全面统筹本会营运、行政与制度建设，负责对外合作、法定登记、政策联络与公共事务，确保本会稳健发展。"
         },
         alvin: {
             name: "赵诺贤先生",
             englishName: "Mr. CHIU Nok Yin, Alvin",
-            title: "副主席及联席创办人",
+            title: "主席及联席创办人",
             desc: "协助主席统筹行政事务、管理日常运作，于内部决策、对外联络与重大项目推动上担任重要协调角色，确保协会运作稳定并具策略连贯性。"
         },
         ocheunghon: {
@@ -321,7 +321,7 @@ const zhCN = {
             0: {
                 date: "2025年5月21日",
                 title: "广东省第二中医院交流会",
-                desc: "协会副主席带领医学生团队赴广东省第二中医院，与内地专家交流中医药发展，并草拟合作计划。",
+                desc: "协会主席带领医学生团队赴广东省第二中医院，与内地专家交流中医药发展，并草拟合作计划。",
                 detailsBtn: "活动详情"
             },
             1: {
@@ -345,7 +345,7 @@ const zhCN = {
             pageTitle: "广东省第二中医院交流会｜活动详情｜大湾区医疗发展与研究协会",
             date: "2025年5月21日",
             title: "广东省第二中医院交流会",
-            description: "协会副主席带领医学生团队赴广东省第二中医院，与内地专家交流中医药发展，并草拟合作计划。活动促进了中港两地医疗体制的交流与合作，为未来学术与临床合作奠定基础。",
+            description: "协会主席带领医学生团队赴广东省第二中医院，与内地专家交流中医药发展，并草拟合作计划。活动促进了中港两地医疗体制的交流与合作，为未来学术与临床合作奠定基础。",
             overviewTitle: "活动概述",
             organizer: "主办方：香港青年创业家促进会",
             coOrganizer: "协办方：大湾区医疗发展与研究协会",
@@ -366,7 +366,7 @@ const zhCN = {
             reportOrganizer: "主办方：香港青年创业家促进会",
             reportCoOrganizer: "协办方：大湾区医疗发展与研究协会",
             reportGuests: "主要嘉宾与演讲者：曾科学教授（广东省第二中医院 主任中医师）、霍洁玲院长（肇庆正大国健康复医院）、雷星月小姐（广州中医药大学 研究生）",
-            reportParticipants: "参与者：赵诺贤先生（大湾区医疗发展与研究协会 副主席）、黄炜陞先生（香港青年创业家促进会 主席）",
+            reportParticipants: "参与者：赵诺贤先生（大湾区医疗发展与研究协会 主席）、黄炜陞先生（香港青年创业家促进会 主席）",
             reportSection2: "2. 活动概述",
             reportPurpose: "活动目的：",
             reportPurposeText: "促进香港与内地中医药交流，了解内地中医医疗体制，草拟参与香港中医药发展基金的合作计划。",
@@ -401,7 +401,7 @@ const zhCN = {
             conclusion1: "活动成功促进交流与合作，为基金项目奠定基础。",
             conclusion2: "感谢霍洁玲院长、曾科学教授、雷星月小姐及医院的热情接待与支持。",
             reportAuthor: "报告撰写人：",
-            authorName: "赵诺贤（副主席）",
+            authorName: "赵诺贤（主席）",
             reportContact: "联系方式：",
             contactNumber: "60256289",
             photosTitle: "活动照片",
@@ -445,7 +445,7 @@ const zhCN = {
             reportCoOrganizer2: "大湾区医疗发展及研究协会",
             reportCoOrganizerLabel: "协办方：",
             reportGuest1: "唐楚轩医生 青年民建联副主席 香港青年医生及医护人员协会创会主席",
-            reportGuest2: "赵诺贤先生 大湾区医疗发展与研究协会副主席",
+            reportGuest2: "赵诺贤先生 大湾区医疗发展与研究协会主席",
             reportGuestsLabel: "主要嘉宾与演讲者：",
             reportParticipant1: "香港青年医生及医护人员协会医护人员",
             reportParticipant2: "现任社工",
@@ -507,7 +507,7 @@ const zhCN = {
             coOrganizer: "协办方：大湾区医疗发展与研究协会",
             duration: "活动时间：10:00 - 22:00（三日两夜）",
             location: "活动地点：新疆伊宁市伊然有道中医院",
-            guests: "主要嘉宾：张鹏先生（院长）、曾科学教授、赵诺贤先生（副主席）、施仁鑫先生（主席）",
+            guests: "主要嘉宾：张鹏先生（院长）、曾科学教授、赵诺贤先生（主席）、施仁鑫先生（主席）",
             contentTitle: "活动内容",
             content1: "参观伊然有道中医院及与当地医护人才交流",
             content2: "学习南派膏摩疗法 - 非物质文化遗产技术传承",

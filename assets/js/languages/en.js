@@ -29,7 +29,7 @@ const en = {
         latestNews: "Latest Updates",
         latestNewsSubtitle: "Latest activities and exchange outcomes of the association",
         gd2hospital: "Guangdong Second Traditional Chinese Medicine Hospital Exchange",
-        gd2hospitalDesc: "The association's vice-chairman led a team of medical students to Guangdong Second Traditional Chinese Medicine Hospital to exchange with mainland experts on TCM development and draft cooperation plans.",
+        gd2hospitalDesc: "The association's chairman led a team of medical students to Guangdong Second Traditional Chinese Medicine Hospital to exchange with mainland experts on TCM development and draft cooperation plans.",
         mentalHealth: "Youth Healthcare and Social Work Mental Health Exchange Experience Day",
         mentalHealthDesc: "Focusing on mental health of young healthcare workers and social workers, promoting cross-sector exchange and experience sharing, and advancing collaboration between healthcare and social services.",
         eventDetails: "Event Details",
@@ -60,13 +60,13 @@ const en = {
         charlotte: {
             name: "Ms. CHAN Sheung Lok Charlotte",
             englishName: "Ms. CHAN Sheung Lok Charlotte",
-            title: "Chairman and Co-founder",
+            title: "Vice Chairman and Co-founder",
             desc: "Possessing excellent professional qualities and communication skills, she comprehensively coordinates the association's operations, administration and system building, responsible for external cooperation, legal registration, policy liaison and public affairs, ensuring the association's stable development."
         },
         alvin: {
             name: "Mr. CHIU Nok Yin, Alvin",
             englishName: "Mr. CHIU Nok Yin, Alvin",
-            title: "Vice Chairman and Co-founder",
+            title: "Chairman and Co-founder",
             desc: "Assisting the chairman in coordinating administrative affairs and managing daily operations, playing an important coordinating role in internal decision-making, external liaison and major project promotion, ensuring stable association operations with strategic coherence."
         },
         ocheunghon: {
@@ -326,7 +326,7 @@ const en = {
             0: {
                 date: "May 21, 2025",
                 title: "Guangdong Second Traditional Chinese Medicine Hospital Exchange",
-                desc: "The association's vice-chairman led a team of medical students to Guangdong Second Traditional Chinese Medicine Hospital to exchange views on TCM development with mainland experts and draft cooperation plans.",
+                desc: "The association's chairman led a team of medical students to Guangdong Second Traditional Chinese Medicine Hospital to exchange views on TCM development with mainland experts and draft cooperation plans.",
                 detailsBtn: "Event Details"
             },
             1: {
@@ -371,7 +371,7 @@ const en = {
             reportOrganizer: "Organizer: Hong Kong Youth Entrepreneurs Promotion Association",
             reportCoOrganizer: "Co-organizer: The Greater Bay Area Healthcare Development and Research Association",
             reportGuests: "Key Guests and Speakers: Professor Zeng Kexue (Chief TCM Physician, Guangdong Second Traditional Chinese Medicine Hospital), Dean Huo Jieling (Zhaoqing Zhengda Guoji Health Rehabilitation Hospital), Ms. Lei Xingyue (Graduate Student, Guangzhou University of Chinese Medicine)",
-            reportParticipants: "Participants: Mr. Alvin Chiu (Vice Chairman, The Greater Bay Area Healthcare Development and Research Association), Mr. Wong Wai Shing (Chairman, Hong Kong Youth Entrepreneurs Promotion Association)",
+            reportParticipants: "Participants: Mr. Alvin Chiu (Chairman, The Greater Bay Area Healthcare Development and Research Association), Mr. Wong Wai Shing (Chairman, Hong Kong Youth Entrepreneurs Promotion Association)",
             reportSection2: "2. Event Overview",
             reportPurpose: "Event Purpose:",
             reportPurposeText: "Promote Hong Kong-mainland TCM exchange, understand mainland TCM healthcare system, and draft cooperation plans for Hong Kong TCM Development Fund participation.",
@@ -406,7 +406,7 @@ const en = {
             conclusion1: "Event successfully promoted exchange and cooperation, laying foundation for fund projects.",
             conclusion2: "Thank Dean Huo Jieling, Professor Zeng Kexue, Ms. Lei Xingyue, and the hospital for their warm reception and support.",
             reportAuthor: "Report Author:",
-            authorName: "Alvin Chiu (Vice Chairman)",
+            authorName: "Alvin Chiu (Chairman)",
             reportContact: "Contact:",
             contactNumber: "60256289",
             photosTitle: "Event Photos",
@@ -450,7 +450,7 @@ const en = {
             reportCoOrganizer2: "Greater Bay Area Healthcare Development and Research Association",
             reportCoOrganizerLabel: "Co-organizers: ",
             reportGuest1: "Dr. Tang Chu Hin, Vice Chairman of Youth DAB, Founding Chairman of Hong Kong Young Doctors and Healthcare Workers Association",
-            reportGuest2: "Mr. Alvin Chiu, Vice Chairman of The Greater Bay Area Healthcare Development and Research Association",
+            reportGuest2: "Mr. Alvin Chiu, Chairman of The Greater Bay Area Healthcare Development and Research Association",
             reportGuestsLabel: "Key Guests and Speakers: ",
             reportParticipant1: "Healthcare workers from Hong Kong Young Doctors and Healthcare Workers Association",
             reportParticipant2: "Current social workers",
@@ -512,7 +512,7 @@ const en = {
             coOrganizer: "Co-organizer: The Greater Bay Area Healthcare Development and Research Association",
             duration: "Event Duration: 10:00 - 22:00 (3 Days 2 Nights)",
             location: "Event Location: Yiran Youdao Traditional Chinese Medicine Hospital, Yining, Xinjiang",
-            guests: "Key Guests: Mr. Zhang Peng (Director), Professor Zeng Kexue, Mr. Zhao Nuoxian (Vice Chairman), Mr. Shi Renxin (Chairman)",
+            guests: "Key Guests: Mr. Zhang Peng (Director), Professor Zeng Kexue, Mr. Zhao Nuoxian (Chairman), Mr. Shi Renxin (Chairman)",
             contentTitle: "Event Content",
             content1: "Visit to Yiran Youdao TCM Hospital and exchange with local medical professionals",
             content2: "Learning Nanpai Gao Mo Therapy - Intangible Cultural Heritage Technique Transmission",

@@ -29,7 +29,7 @@ const zhTW = {
         latestNews: "最新動態",
         latestNewsSubtitle: "協會最新活動與交流成果",
         gd2hospital: "廣東省第二中醫院交流會",
-        gd2hospitalDesc: "協會副主席帶領醫學生團隊赴廣東省第二中醫院，與內地專家交流中醫藥發展，並草擬合作計劃。",
+        gd2hospitalDesc: "協會主席帶領醫學生團隊赴廣東省第二中醫院，與內地專家交流中醫藥發展，並草擬合作計劃。",
         mentalHealth: "青年醫護社工精神健康交流體驗日",
         mentalHealthDesc: "聚焦青年醫護與社工精神健康，促進跨界交流與經驗分享，推動醫療與社會服務協作。",
         eventDetails: "活動詳情",
@@ -60,13 +60,13 @@ const zhTW = {
         charlotte: {
             name: "陳湘珞女士",
             englishName: "Ms. CHAN Sheung Lok Charlotte",
-            title: "主席及聯席創辦人",
+            title: "副主席及聯席創辦人",
             desc: "具備卓越專業素養與溝通能力，全面統籌本會營運、行政與制度建設，負責對外合作、法定登記、政策聯絡與公共事務，確保本會穩健發展。"
         },
         alvin: {
             name: "趙諾賢先生",
             englishName: "Mr. CHIU Nok Yin, Alvin",
-            title: "副主席及聯席創辦人",
+            title: "主席及聯席創辦人",
             desc: "協助主席統籌行政事務、管理日常運作，於內部決策、對外聯絡與重大專案推動上擔任重要協調角色，確保協會運作穩定並具策略連貫性。"
         },
         ocheunghon: {
@@ -306,7 +306,7 @@ const zhTW = {
             0: {
                 date: "2025年5月21日",
                 title: "廣東省第二中醫院交流會",
-                desc: "協會副主席帶領醫學生團隊赴廣東省第二中醫院，與內地專家交流中醫藥發展，並草擬合作計劃。",
+                desc: "協會主席帶領醫學生團隊赴廣東省第二中醫院，與內地專家交流中醫藥發展，並草擬合作計劃。",
                 detailsBtn: "活動詳情"
             },
             1: {
@@ -330,7 +330,7 @@ const zhTW = {
             pageTitle: "廣東省第二中醫院交流會｜活動詳情｜大灣區醫療發展與研究協會",
             date: "2025年5月21日",
             title: "廣東省第二中醫院交流會",
-            description: "協會副主席帶領醫學生團隊赴廣東省第二中醫院，與內地專家交流中醫藥發展，並草擬合作計劃。活動促進了中港兩地醫療體制的交流與合作，為未來學術與臨床合作奠定基礎。",
+            description: "協會主席帶領醫學生團隊赴廣東省第二中醫院，與內地專家交流中醫藥發展，並草擬合作計劃。活動促進了中港兩地醫療體制的交流與合作，為未來學術與臨床合作奠定基礎。",
             overviewTitle: "活動概述",
             organizer: "主辦方：香港青年創業家促進會",
             coOrganizer: "協辦方：大灣區醫療發展與研究協會",
@@ -351,7 +351,7 @@ const zhTW = {
             reportOrganizer: "主辦方：香港青年創業家促進會",
             reportCoOrganizer: "協辦方：大灣區醫療發展與研究協會",
             reportGuests: "主要嘉賓與演講者：曾科學教授（廣東省第二中醫院 主任中醫師）、霍潔玲院長（肇慶正大國健康復醫院）、雷星月小姐（廣州中醫藥大學 研究生）",
-            reportParticipants: "參與者：趙諾賢先生（大灣區醫療發展與研究協會 副主席）、黃煒陞先生（香港青年創業家促進會 主席）",
+            reportParticipants: "參與者：趙諾賢先生（大灣區醫療發展與研究協會 主席）、黃煒陞先生（香港青年創業家促進會 主席）",
             reportSection2: "2. 活動概述",
             reportPurpose: "活動目的：",
             reportPurposeText: "促進香港與內地中醫藥交流，了解內地中醫醫療體制，草擬參與香港中醫藥發展基金的合作計劃。",
@@ -386,7 +386,7 @@ const zhTW = {
             conclusion1: "活動成功促進交流與合作，為基金項目奠定基礎。",
             conclusion2: "感謝霍潔玲院長、曾科學教授、雷星月小姐及醫院的熱情接待與支持。",
             reportAuthor: "報告撰寫人：",
-            authorName: "趙諾賢（副主席）",
+            authorName: "趙諾賢（主席）",
             reportContact: "聯絡方式：",
             contactNumber: "60256289",
             photosTitle: "活動照片",
@@ -430,7 +430,7 @@ const zhTW = {
             reportCoOrganizer2: "大灣區醫療發展及研究協會",
             reportCoOrganizerLabel: "協辦方：",
             reportGuest1: "唐楚軒醫生 青年民建聯副主席 香港青年醫生及醫護人員協會創會主席",
-            reportGuest2: "趙諾賢先生 大灣區醫療發展與研究協會副主席",
+            reportGuest2: "趙諾賢先生 大灣區醫療發展與研究協會主席",
             reportGuestsLabel: "主要嘉賓與演講者：",
             reportParticipant1: "香港青年醫生及醫護人員協會醫護人員",
             reportParticipant2: "現任社工",
@@ -492,7 +492,7 @@ const zhTW = {
             coOrganizer: "協辦方：大灣區醫療發展與研究協會",
             duration: "活動時間：10:00 - 22:00（三日兩夜）",
             location: "活動地點：新疆伊寧市伊然有道中醫院",
-            guests: "主要嘉賓：張鵬先生（院長）、曾科學教授、趙諾賢先生（副主席）、施仁鑫先生（主席）",
+            guests: "主要嘉賓：張鵬先生（院長）、曾科學教授、趙諾賢先生（主席）、施仁鑫先生（主席）",
             contentTitle: "活動內容",
             content1: "參觀伊然有道中醫院及與當地醫護人才交流",
             content2: "學習南派膏摩療法 - 非物質文化遺產技術傳承",
