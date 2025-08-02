@@ -61,13 +61,13 @@ const en = {
             name: "Ms. CHAN Sheung Lok Charlotte",
             englishName: "Ms. CHAN Sheung Lok Charlotte",
             title: "Vice Chairman and Co-founder",
-            desc: "Possessing excellent professional qualities and communication skills, she comprehensively coordinates the association's operations, administration and system building, responsible for external cooperation, legal registration, policy liaison and public affairs, ensuring the association's stable development."
+            desc: "Assisting the chairman in coordinating administrative affairs and managing daily operations, playing an important coordinating role in internal decision-making, external liaison and major project promotion, ensuring stable association operations with strategic coherence."
         },
         alvin: {
             name: "Mr. CHIU Nok Yin, Alvin",
             englishName: "Mr. CHIU Nok Yin, Alvin",
             title: "Chairman and Co-founder",
-            desc: "Assisting the chairman in coordinating administrative affairs and managing daily operations, playing an important coordinating role in internal decision-making, external liaison and major project promotion, ensuring stable association operations with strategic coherence."
+            desc: "Possessing excellent professional qualities and communication skills, he comprehensively coordinates the association's operations, administration and system building, responsible for external cooperation, legal registration, policy liaison and public affairs, ensuring the association's stable development."
         },
         ocheunghon: {
             name: "Mr. O Cheung Hon",
