@@ -117,7 +117,7 @@ const en = {
                 name: "Dr SEE Yew Hong Christopher",
                 chineseName: "施由鴻博士",
                 title: "Senior Honorary Advisor - Artificial Intelligence Education Development Leadership",
-                subtitle: "Lecturer, The University of Hong Kong | PhD in Medical Education",
+                subtitle: "Lecturer, The Chinese University of Hong Kong | PhD in Medical Education",
                 qualifications: "MB BChir (Cambridge) | MA (Cambridge) | PGCE (Edinburgh) | PhD Medical Education (HKU) | FAcadMEd (UK) | FHEA (UK)",
                 badge: "Senior Honorary Advisor"
             },

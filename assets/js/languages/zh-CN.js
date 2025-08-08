@@ -117,7 +117,7 @@ const zhCN = {
                 name: "施由鸿博士",
                 englishName: "Dr SEE Yew Hong Christopher",
                 title: "高级荣誉顾问 – 人工智能教育发展领导",
-                subtitle: "香港大学讲师 | 医学教育博士",
+                subtitle: "香港中文大学讲师 | 医学教育博士",
                 qualifications: "剑桥大学医学学士 | 剑桥大学文学硕士 | 爱丁堡大学教育学研究生证书 | 香港大学医学教育博士 | 英国医学教育学院院士 | 英国高等教育学院院士",
                 badge: "高级荣誉顾问"
             },

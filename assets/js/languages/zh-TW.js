@@ -108,7 +108,7 @@ const zhTW = {
                 name: "施由鴻博士",
                 englishName: "Dr SEE Yew Hong Christopher",
                 title: "高級榮譽顧問 – 人工智能教育發展領導",
-                subtitle: "香港大學講師 | 醫學教育博士",
+                subtitle: "香港中文大學講師 | 醫學教育博士",
                 qualifications: "劍橋大學醫學學士 | 劍橋大學文學碩士 | 愛丁堡大學教育學研究生證書 | 香港大學醫學教育博士 | 英國醫學教育學院院士 | 英國高等教育學院院士",
                 badge: "高級榮譽顧問"
             },
