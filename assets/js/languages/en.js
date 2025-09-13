@@ -63,15 +63,9 @@ const en = {
         mission: "Association Mission and Development Direction",
         missionDesc1: "Our association takes promoting healthcare development in the Greater Bay Area as our core mission, dedicated to advancing healthcare knowledge education, health industry innovation, and intergenerational professional inheritance. We will fully leverage our role as a bridge and bond, actively promoting cross-border exchange and cooperation among healthcare institutions, academic institutions and community organizations within the Greater Bay Area, and achieve quality resource sharing and complementarity through establishing regular interaction mechanisms.",
         missionDesc2: "As a bridge connecting the medical community, academia and community, our association promotes high-quality development of healthcare in the Greater Bay Area through organizing lectures, publishing publications, planning activities and conducting research projects.",
-        missionDesc3: "Founded in 2025, the association is a new organization that has successfully organized multiple exchange activities within three months and continues to expand our advisory team and international academic network. The three founders work collaboratively in their respective positions to jointly promote the association's core values, mission implementation and development blueprint, ensuring the association's decision-making direction and organizational operations have stability and foresight.",
+        missionDesc3: "Founded in 2025, the association is a new organization that has successfully organized multiple exchange activities within three months and continues to expand our advisory team and international academic network. The two founders work collaboratively in their respective positions to jointly promote the association's core values, mission implementation and development blueprint, ensuring the association's decision-making direction and organizational operations have stability and foresight.",
         founders: "Founders Introduction",
-        foundersSummary: "The three founders work collaboratively in their respective positions to jointly promote the association's core values, mission implementation and development blueprint, ensuring the association's decision-making direction and organizational operations have stability and foresight.",
-        charlotte: {
-            name: "Ms. CHAN Sheung Lok Charlotte",
-            englishName: "Ms. CHAN Sheung Lok Charlotte",
-            title: "Vice Chairman and Co-founder",
-            desc: "Assisting the chairman in coordinating administrative affairs and managing daily operations, playing an important coordinating role in internal decision-making, external liaison and major project promotion, ensuring stable association operations with strategic coherence."
-        },
+        foundersSummary: "The two founders work collaboratively in their respective positions to jointly promote the association's core values, mission implementation and development blueprint, ensuring the association's decision-making direction and organizational operations have stability and foresight.",
         alvin: {
             name: "Mr. CHIU Nok Yin, Alvin",
             englishName: "Mr. CHIU Nok Yin, Alvin",
@@ -452,7 +446,7 @@ const en = {
             overviewTitle: "Event Overview",
             organizer: "Organizer: The Greater Bay Area Healthcare Development and Research Association",
             coOrganizer: "Co-organizer: Hong Kong Youth Entrepreneurs Promotion Association",
-            guests: "Key Guests: Ms. Charlotte Chan, Mr. O Cheung Hon, Mr. Wong Wai Shing, etc.",
+            guests: "Key Guests: Mr. O Cheung Hon, Mr. Wong Wai Shing, etc.",
             participants: "Participants: Medical students, social workers, youth representatives, etc.",
             contentTitle: "Event Content",
             content1: "Keynote Lecture: Mental Health and Youth Development",
