@@ -44,15 +44,9 @@ const zhTW = {
         pblWorkshop2Desc: "建立醫學生與高中生的師友網絡，讓學生了解香港大學醫學院文化與學習環境。",
         pblWorkshop3: "醫學探索 -- 《序：解鎖醫學世界》 工作坊 3",
         pblWorkshop3Desc: "培養批判思考與問題解決技能，透過病例討論培養醫學思考模式。",
-        partners: "合作夥伴",
-        partnersSubtitle: "協會由香港大學醫學生、澳洲昆士蘭大學物理治療學生創辦，並與多所大學及醫療機構建立合作。",
-        hkuStudents: "香港大學醫學生",
-        qutStudents: "昆士蘭大學物理治療學生",
-        advisoryTeam: "協會顧問團隊",
         announcement: "協會公告",
         announcementDesc: "歡迎醫學生及醫療相關學科同學加入協會，與來自世界頂尖大學的同儕共同推動醫療發展。",
         announcementTitle: "協會公告",
-        learnMoreMembers: "了解更多協會成員"
     },
     
     // 關於我們

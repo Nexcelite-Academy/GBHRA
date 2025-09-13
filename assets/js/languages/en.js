@@ -44,15 +44,9 @@ const en = {
         pblWorkshop2Desc: "Building mentorship networks between medical students and high school students, helping students understand HKU Medical School culture and learning environment.",
         pblWorkshop3: "MedQuest: Prelude – Gateway to Medicine PBL Workshop 3",
         pblWorkshop3Desc: "Developing critical thinking and problem-solving skills through case discussions to cultivate medical thinking patterns.",
-        partners: "Partners",
-        partnersSubtitle: "The association was founded by medical students from the University of Hong Kong and physiotherapy students from the University of Queensland, and has established partnerships with multiple universities and healthcare institutions.",
-        hkuStudents: "University of Hong Kong Medical Students",
-        qutStudents: "University of Queensland Physiotherapy Students",
-        advisoryTeam: "Association Advisory Team",
         announcement: "Association Announcement",
         announcementDesc: "Welcome medical students and students from healthcare-related disciplines to join the association and work with peers from world-class universities to promote healthcare development.",
         announcementTitle: "Association Announcement",
-        learnMoreMembers: "Learn More About Association Members"
     },
     
     // About Us
